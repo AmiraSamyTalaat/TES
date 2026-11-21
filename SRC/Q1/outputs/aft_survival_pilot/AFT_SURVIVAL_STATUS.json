@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "train_rows": 24666,
+  "validation_rows": 11353,
+  "best_iteration": 345,
+  "validation_harrell_c": 0.8620894048827847,
+  "xgboost_cox_harrell_c": 0.8607646602686064,
+  "difference_vs_xgboost_cox": 0.0013247446141783081,
+  "median_predicted_time_months": 663.8748168945312,
+  "confirmatory_2015_2018_used": false,
+  "nhanes_iii_read": false,
+  "progression_gate_pass": true
+}

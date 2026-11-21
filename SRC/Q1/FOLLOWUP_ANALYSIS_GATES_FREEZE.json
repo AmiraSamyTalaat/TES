@@ -1,0 +1,22 @@
+{
+  "frozen_at": "2026-08-27",
+  "before_candidate_method_fit": true,
+  "primary_metric": "right-censored concordance with confidence interval",
+  "secondary_metrics": [
+    "integrated Brier score over common supported time window",
+    "time-dependent calibration only at supported horizons",
+    "calibration slope and observed-to-expected risk",
+    "sex and age-band subgroup audit"
+  ],
+  "prohibitions": [
+    "no five-year risk claim for NHANES 2017-2018",
+    "no pooling that conceals cycle-specific follow-up",
+    "no candidate tuning on 2015-2018 outcomes"
+  ],
+  "candidate_progression_gates_on_validation": {
+    "harrell_c_minimum": 0.84,
+    "harrell_c_noninferiority_vs_full_panel_cox": -0.005,
+    "calibration_error_relative_improvement_minimum": 0.10,
+    "selective_error_relative_improvement_minimum": 0.10
+  }
+}

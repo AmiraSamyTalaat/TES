@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "analysis_classification": "post-hoc Strong-Q1 stability/sensitivity extension",
+  "frozen_confirmatory_artifacts_modified": false,
+  "selection_data_only_for_resampling_and_consensus": "NHANES 2009-2012",
+  "resampling": {
+    "replicates": 200,
+    "scheme": "stratified half-sampling without replacement within 2009-2010 and 2011-2012",
+    "seed": 20260830,
+    "summaries": [
+      {
+        "selector": "TES 90%-mass",
+        "resamples": 200,
+        "mean_selected_count": 11.615,
+        "selected_count_2_5pct": 11.0,
+        "selected_count_97_5pct": 12.0,
+        "mean_pairwise_jaccard": 0.9603391959798995,
+        "median_pairwise_jaccard": 1.0,
+        "nogueira_stability": 0.9617338135237251,
+        "mean_jaccard_to_frozen_tes11": 0.9487499999999999
+      },
+      {
+        "selector": "Mean-SHAP 90%-mass",
+        "resamples": 200,
+        "mean_selected_count": 12.0,
+        "selected_count_2_5pct": 12.0,
+        "selected_count_97_5pct": 12.0,
+        "mean_pairwise_jaccard": 1.0,
+        "median_pairwise_jaccard": 1.0,
+        "nogueira_stability": 1.0,
+        "mean_jaccard_to_frozen_tes11": 0.9166666666666665
+      },
+      {
+        "selector": "Latest-cycle SHAP 90%-mass",
+        "resamples": 200,
+        "mean_selected_count": 12.0,
+        "selected_count_2_5pct": 12.0,
+        "selected_count_97_5pct": 12.0,
+        "mean_pairwise_jaccard": 1.0,
+        "median_pairwise_jaccard": 1.0,
+        "nogueira_stability": 1.0,
+        "mean_jaccard_to_frozen_tes11": 0.9166666666666665
+      },
+      {
+        "selector": "Cox-score top-11 base selector",
+        "resamples": 200,
+        "mean_selected_count": 11.0,
+        "selected_count_2_5pct": 11.0,
+        "selected_count_97_5pct": 11.0,
+        "mean_pairwise_jaccard": 0.9398473134905294,
+        "median_pairwise_jaccard": 1.0,
+        "nogueira_stability": 0.9407508320824904,
+        "mean_jaccard_to_frozen_tes11": 0.5726373626373624
+      }
+    ]
+  },
+  "stability_aware_comparator": {
+    "name": "Cox stability-selection consensus top-11",
+    "principle": "subsampling plus recurrence consensus using a survival-specific Cox score top-11 base selector",
+    "false_discovery_control_claimed": false,
+    "selected_features": [
+      "age_years",
+      "sex_code",
+      "albumin_g_l",
+      "bun_mmol_l",
+      "creatinine_umol_l",
+      "osmolality_mmol_kg",
+      "potassium_mmol_l",
+      "glucose_mmol_l",
+      "uric_acid_umol_l",
+      "ldh_u_l",
+      "alp_u_l"
+    ],
+    "paired_tes_minus_comparator": {
+      "2013-2014 audit": {
+        "tes_c": 0.8582890481683908,
+        "comparator_c": 0.8548612818427672,
+        "point_difference": 0.0034277663256235824
+      },
+      "NHANES III external": {
+        "tes_c": 0.8493867110451929,
+        "comparator_c": 0.8471766961410822,
+        "point_difference": 0.0022100149041107686
+      }
+    }
+  },
+  "resampling_consensus_shap_panel": [
+    "age_years",
+    "sex_code",
+    "albumin_g_l",
+    "alp_u_l",
+    "alt_u_l",
+    "bun_mmol_l",
+    "chloride_mmol_l",
+    "creatinine_umol_l",
+    "ggt_u_l",
+    "glucose_mmol_l",
+    "ldh_u_l"
+  ],
+  "sensitivity": {
+    "direction_thresholds": [
+      0.05,
+      0.1,
+      0.15
+    ],
+    "tes_mass_thresholds": [
+      0.9,
+      0.925,
+      0.95
+    ],
+    "primary_90pct_panel_invariant_across_direction_thresholds": true,
+    "primary_90pct_k_bounds_inactive": true,
+    "unique_panels_across_grid": 3
+  },
+  "claim_boundary": "These analyses are post-hoc robustness analyses. They support selection stability and parameter robustness but do not convert NHANES III into a different-health-system deployment validation."
+}

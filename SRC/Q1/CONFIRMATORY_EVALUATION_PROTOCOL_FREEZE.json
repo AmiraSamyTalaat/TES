@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-08-27",
+  "model": "previously frozen XGBoost survival at best_iteration 413",
+  "comparator": "previously fitted full-panel Cox",
+  "cycles_reported_separately": ["2015-2016", "2017-2018"],
+  "pooled_result": "secondary only",
+  "primary_metric": "Harrell C",
+  "uncertainty": "1000 participant bootstrap replicates stratified by cycle where pooled",
+  "primary_comparison": "paired XGBoost minus Cox C-index",
+  "success_rule": "paired 95% CI lower bound greater than zero in 2015-2016; 2017-2018 reported as short-follow-up stress test",
+  "prohibitions": ["no tuning", "no refitting", "no threshold selection", "no five-year-risk claim for 2017-2018"]
+}

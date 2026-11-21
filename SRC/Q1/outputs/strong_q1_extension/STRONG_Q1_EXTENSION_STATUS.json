@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "analysis_classification": "post-hoc manuscript-strengthening extension",
+  "frozen_confirmatory_artifacts_modified": false,
+  "tes_formula_reproduces_frozen_panel": true,
+  "component_ablation": [
+    {
+      "variant": "importance_only",
+      "selected_feature_count": 12,
+      "selected_features": "age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l",
+      "reduction_vs_25": 0.52
+    },
+    {
+      "variant": "no_direction_term",
+      "selected_feature_count": 12,
+      "selected_features": "age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l",
+      "reduction_vs_25": 0.52
+    },
+    {
+      "variant": "no_cv_penalty",
+      "selected_feature_count": 12,
+      "selected_features": "age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l",
+      "reduction_vs_25": 0.52
+    },
+    {
+      "variant": "full_tes",
+      "selected_feature_count": 11,
+      "selected_features": "age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l",
+      "reduction_vs_25": 0.56
+    }
+  ],
+  "feature_selection_baselines": {
+    "TES-11": {
+      "features": 11,
+      "audit_c": 0.8582890481683908,
+      "external_c": 0.8493867110451929
+    },
+    "Mean-SHAP mass": {
+      "features": 12,
+      "audit_c": 0.8579452584029243,
+      "external_c": 0.8493718710921341
+    },
+    "Latest-cycle SHAP mass": {
+      "features": 12,
+      "audit_c": 0.8585234195802117,
+      "external_c": 0.8485801261228643
+    },
+    "XGBoost gain top-11": {
+      "features": 11,
+      "audit_c": 0.8538952033335224,
+      "external_c": 0.8493949064929537
+    },
+    "Univariate Cox top-11": {
+      "features": 11,
+      "audit_c": 0.851646948848946,
+      "external_c": 0.845486548224129
+    }
+  },
+  "key_survival_sensitivity": {
+    "2009-2012 validation": {
+      "Full Cox": {
+        "uno_c_24": 0.8536454465643849,
+        "auc_24": 0.8531294717061516,
+        "brier_24": 0.018137634491676102
+      },
+      "XGBoost-Cox": {
+        "uno_c_24": 0.872195529218954,
+        "auc_24": 0.8713867030513913,
+        "brier_24": 0.017747848735577068
+      },
+      "Full AFT": {
+        "uno_c_24": 0.8763067482715213,
+        "auc_24": 0.8757223030390379,
+        "brier_24": 0.01761366794120681
+      },
+      "TES-11 AFT": {
+        "uno_c_24": 0.875178862148551,
+        "auc_24": 0.8744608216179747,
+        "brier_24": 0.017568962863433703
+      }
+    },
+    "2013-2014 audit": {
+      "Full Cox": {
+        "uno_c_24": 0.8377195395009319,
+        "auc_24": 0.8374436049232391,
+        "brier_24": 0.019487093019262214
+      },
+      "XGBoost-Cox": {
+        "uno_c_24": 0.8593313185959826,
+        "auc_24": 0.8567856585748534,
+        "brier_24": 0.01919219234991812
+      },
+      "Full AFT": {
+        "uno_c_24": 0.860620728929385,
+        "auc_24": 0.8577034273970653,
+        "brier_24": 0.019103260635195428
+      },
+      "TES-11 AFT": {
+        "uno_c_24": 0.862591245599503,
+        "auc_24": 0.8602674251132445,
+        "brier_24": 0.019005125912435788
+      }
+    },
+    "2015-2016 frozen confirmation": {
+      "Full Cox": {
+        "uno_c_24": 0.8713956676085868,
+        "auc_24": 0.8793787177792465,
+        "brier_24": 0.018977434517223783
+      },
+      "XGBoost-Cox": {
+        "uno_c_24": 0.8814999512229804,
+        "auc_24": 0.8887687659333396,
+        "brier_24": 0.018184673673376957
+      },
+      "Full AFT": {
+        "uno_c_24": 0.8829864102263089,
+        "auc_24": 0.8903959336543606,
+        "brier_24": 0.017957525848640604
+      },
+      "TES-11 AFT": {
+        "uno_c_24": 0.8850912626303545,
+        "auc_24": 0.892635256349731,
+        "brier_24": 0.018013560216463477
+      }
+    },
+    "2017-2018 short-follow-up stress": {
+      "Full Cox": {
+        "uno_c_24": 0.840097913340147,
+        "auc_24": 0.8412380075701434,
+        "brier_24": 0.019011762125537943
+      },
+      "XGBoost-Cox": {
+        "uno_c_24": 0.8554668887781565,
+        "auc_24": 0.8566574393773739,
+        "brier_24": 0.018196047283345947
+      },
+      "Full AFT": {
+        "uno_c_24": 0.8633777920032589,
+        "auc_24": 0.8650101854651916,
+        "brier_24": 0.018303373036282093
+      },
+      "TES-11 AFT": {
+        "uno_c_24": 0.8631459207018335,
+        "auc_24": 0.8649586765873873,
+        "brier_24": 0.018345662771792434
+      }
+    },
+    "NHANES III external": {
+      "Full Cox": {
+        "uno_c_24": 0.8462142083774563,
+        "auc_24": 0.8481688086100765,
+        "brier_24": 0.02393559480583457
+      },
+      "XGBoost-Cox": {
+        "uno_c_24": 0.8662673936257903,
+        "auc_24": 0.8708668894809355,
+        "brier_24": 0.0234566670069201
+      },
+      "Full AFT": {
+        "uno_c_24": 0.869416105877408,
+        "auc_24": 0.8735526851437355,
+        "brier_24": 0.024591240406602
+      },
+      "TES-11 AFT": {
+        "uno_c_24": 0.8667500115103511,
+        "auc_24": 0.8710768100761885,
+        "brier_24": 0.025081877360492045
+      }
+    }
+  },
+  "claim_boundary": "New ablation, baseline-selection, Uno-C, time-dependent AUC, Brier, and calibration analyses are post-hoc strengthening analyses. They do not replace or retroactively alter the frozen confirmatory success gates."
+}

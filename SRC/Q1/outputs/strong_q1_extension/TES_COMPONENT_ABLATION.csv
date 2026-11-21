@@ -1,0 +1,5 @@
+variant,selected_feature_count,selected_features,reduction_vs_25
+importance_only,12,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l,0.52
+no_direction_term,12,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l,0.52
+no_cv_penalty,12,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l,0.52
+full_tes,11,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l,0.56

@@ -1,0 +1,12 @@
+{
+  "status": "exploratory_posthoc",
+  "source": "Q1_SOURCE_V1_2.zip",
+  "original_frozen_files_modified": false,
+  "same_processing_for_both": "training-based median imputation; training IQR standardization; same 25 predictors",
+  "cox": "frozen Cox beta, ridge 0.05, 1999-2008 training",
+  "xgb_tuning": "1999-2006 fit / 2007-2008 early stopping, then refit 1999-2008",
+  "xgb_best_round_1_based": 512,
+  "xgboost_version": "3.1.3",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "limitations": "Bootstrap CI is naive participant-paired (not complex-survey design-based); no NHANES III; post-hoc; XGBoost runtime differs from archived original."
+}

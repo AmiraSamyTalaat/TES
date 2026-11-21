@@ -1,0 +1,14 @@
+{
+  "nhanes_harmonized_panel.csv.gz": {
+    "rows": 69132,
+    "cols": 28,
+    "cell_differences": {},
+    "records_identical": true
+  },
+  "nhanes_survival_cohort.csv.gz": {
+    "rows": 52287,
+    "cols": 38,
+    "cell_differences": {},
+    "records_identical": true
+  }
+}

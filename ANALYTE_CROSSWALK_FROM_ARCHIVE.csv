@@ -1,0 +1,26 @@
+﻿study_feature,unit_code_in_source_registry,2001_2002_override,NHANES_III_assay_and_unit_crosswalk_verified
+age_years,demographic; inspect code,—,NO — independent assay/analyzer/unit verification required
+sex_code,demographic; inspect code,—,NO — independent assay/analyzer/unit verification required
+albumin_g_l,LBDSALSI,—,NO — independent assay/analyzer/unit verification required
+alp_u_l,LBXSAPSI,LBDSAPSI,NO — independent assay/analyzer/unit verification required
+alt_u_l,LBXSATSI,—,NO — independent assay/analyzer/unit verification required
+ast_u_l,LBXSASSI,—,NO — independent assay/analyzer/unit verification required
+bun_mmol_l,LBDSBUSI,—,NO — independent assay/analyzer/unit verification required
+bicarbonate_mmol_l,LBXSC3SI,—,NO — independent assay/analyzer/unit verification required
+calcium_mmol_l,LBDSCASI,—,NO — independent assay/analyzer/unit verification required
+cholesterol_mmol_l,LBDSCHSI,—,NO — independent assay/analyzer/unit verification required
+chloride_mmol_l,LBXSCLSI,—,NO — independent assay/analyzer/unit verification required
+creatinine_umol_l,LBDSCRSI,—,NO — independent assay/analyzer/unit verification required
+ggt_u_l,LBXSGTSI,—,NO — independent assay/analyzer/unit verification required
+globulin_g_l,LBDSGBSI,—,NO — independent assay/analyzer/unit verification required
+glucose_mmol_l,LBDSGLSI,—,NO — independent assay/analyzer/unit verification required
+iron_umol_l,LBDSIRSI,—,NO — independent assay/analyzer/unit verification required
+ldh_u_l,LBXSLDSI,LBDSLDSI,NO — independent assay/analyzer/unit verification required
+osmolality_mmol_kg,LBXSOSSI,—,NO — independent assay/analyzer/unit verification required
+phosphorus_mmol_l,LBDSPHSI,—,NO — independent assay/analyzer/unit verification required
+potassium_mmol_l,LBXSKSI,—,NO — independent assay/analyzer/unit verification required
+sodium_mmol_l,LBXSNASI,—,NO — independent assay/analyzer/unit verification required
+bilirubin_umol_l,LBDSTBSI,—,NO — independent assay/analyzer/unit verification required
+protein_g_l,LBDSTPSI,—,NO — independent assay/analyzer/unit verification required
+triglycerides_mmol_l,LBDSTRSI,—,NO — independent assay/analyzer/unit verification required
+uric_acid_umol_l,LBDSUASI,—,NO — independent assay/analyzer/unit verification required

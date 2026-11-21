@@ -1,0 +1,11 @@
+{
+  "nhanesIII_adult_lab_age20_weight_eligible_features": 16529,
+  "nhanesIII_matched_mortality": 16529,
+  "nhanesIII_linkage_ineligible": 10,
+  "nhanesIII_missing_followup_or_outcome": 0,
+  "nhanesIII_analysis_n": 16519,
+  "nhanesIII_deaths": 7081,
+  "nhanesIII_raw_adult_rows": 20050,
+  "nhanesIII_raw_lab_rows": 29314,
+  "note": "adult/lab source counts come from the archived feature cohort status and must not be misrepresented as a single mutually exclusive participant eligibility funnel."
+}

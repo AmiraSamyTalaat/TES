@@ -1,0 +1,5 @@
+# Synthetic measurement-shift demonstration (exploratory)
+
+A fixed archived XGBoost-Cox model supplies TreeSHAP explanations on the 2009–2010 and 2011–2012 selection cycles. In the latter cycle only, prespecified variables are multiplied by 1.25/1.5/1.6/0.85 in separate scenarios; a fifth scenario also artificially masks 20% of GGT and 25% of creatinine observations. These values are **illustrative injections** and are not observed historical laboratory assay corrections. The original TES and 90% mass rule and an importance-only 90% mass rule are applied to the two SHAP profiles. No outcome data are used for selecting panels.
+
+Outputs report importance-rank Spearman, top-10 overlap, selected feature lists and Jaccard against unperturbed panel. This is a limited **measurement-distribution sensitivity** only. It does NOT prove TES predictive superiority under genuine data drift. A paper claim of improvement under transport requires retraining comparator panels under a controlled development-only design and evaluating subsequent held-out perturbed outcomes; such evidence is not furnished by this script alone.

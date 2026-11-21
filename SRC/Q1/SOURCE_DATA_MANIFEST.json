@@ -1,0 +1,170 @@
+{
+  "package_version": "1.0.1",
+  "files": [
+    {
+      "path": "data/raw/calibration/2015-2016/BIOPRO_I.XPT",
+      "bytes": 2056320,
+      "sha256": "1c6dd63f97db81f50891a0327c2b0f90d889c991518fea5ac2113cbf8e1a94ac"
+    },
+    {
+      "path": "data/raw/calibration/2015-2016/DEMO_I.XPT",
+      "bytes": 3756480,
+      "sha256": "c9297c6c37ae8f78f29be9568fa2a03cf3b112616a39afee04030fc775a66a0d"
+    },
+    {
+      "path": "data/raw/development/1999-2000/DEMO.XPT",
+      "bytes": 11500560,
+      "sha256": "a17bd1ebfd6007b8dc93f16259cb090678eb6c467a39363b7e932bba15febf89"
+    },
+    {
+      "path": "data/raw/development/1999-2000/LAB18.XPT",
+      "bytes": 2223120,
+      "sha256": "36dc6f02045ceb61e146885bb04400fd580c9c35cc3bfc4269e314f0e06fe9c0"
+    },
+    {
+      "path": "data/raw/development/2001-2002/DEMO_B.XPT",
+      "bytes": 3273520,
+      "sha256": "6458dc2307cee244ab6ba26f70ec78c7b842ffc68e668bc43f0ab6b9737937d9"
+    },
+    {
+      "path": "data/raw/development/2001-2002/L40_B.XPT",
+      "bytes": 2448480,
+      "sha256": "16f907f3a945cc24d053a9492a3f90edd3e0335f70ba047bbd9952ba6a00e182"
+    },
+    {
+      "path": "data/raw/development/2003-2004/DEMO_C.XPT",
+      "bytes": 3569840,
+      "sha256": "2a2fdb88263337bfa06f0516bfb419631595f0a0ee88fb96069bed13d1857c6f"
+    },
+    {
+      "path": "data/raw/development/2003-2004/L40_C.XPT",
+      "bytes": 2074960,
+      "sha256": "a5642b8aa6e90ee0961562572f7152d47df67a318dd41cb164e3a2fe4aaaae4d"
+    },
+    {
+      "path": "data/raw/development/2005-2006/BIOPRO_D.XPT",
+      "bytes": 2072000,
+      "sha256": "6de916025812b78db1b81e62f77d94d83ed8b046d9d5c8a9d584f7caec120310"
+    },
+    {
+      "path": "data/raw/development/2005-2006/DEMO_D.XPT",
+      "bytes": 3566560,
+      "sha256": "bf9cc79cce501b2fbe5aa8d5b403b618548d02d4aefeb528335cdd9f4c40a3af"
+    },
+    {
+      "path": "data/raw/development/2007-2008/BIOPRO_E.XPT",
+      "bytes": 2053360,
+      "sha256": "6c2cec1e790c09e0319bf5a576a2ab64861d4270679c8113663f83a6b7087ced"
+    },
+    {
+      "path": "data/raw/development/2007-2008/DEMO_E.XPT",
+      "bytes": 3498080,
+      "sha256": "02b8e97703d04bc99769c751881bece51ac9ba68cf18a2992a45d3bdfb856147"
+    },
+    {
+      "path": "data/raw/development/2009-2010/BIOPRO_F.XPT",
+      "bytes": 2187200,
+      "sha256": "d138350f6a9318bb6a411b67f511e8eded677baa6ca8f4cad70dd86a0f0f428a"
+    },
+    {
+      "path": "data/raw/development/2009-2010/DEMO_F.XPT",
+      "bytes": 3631600,
+      "sha256": "78c4d4a6e5eafa9da3bbb24a90d140fef5d8c0cda932a7ff8ee609288d4fae07"
+    },
+    {
+      "path": "data/raw/internal_validation/2011-2012/BIOPRO_G.XPT",
+      "bytes": 1997040,
+      "sha256": "8c3a0b1bea79ff79c5600ad6a76c4206a7d689479f94ae81da6360058eda5d05"
+    },
+    {
+      "path": "data/raw/internal_validation/2011-2012/DEMO_G.XPT",
+      "bytes": 3753760,
+      "sha256": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d"
+    },
+    {
+      "path": "data/raw/internal_validation/2013-2014/BIOPRO_H.XPT",
+      "bytes": 2127760,
+      "sha256": "b114fde7fc46933e6b4e3f620b8e7b61ea5b46f82121c0dc05a7b8c1fbdd0548"
+    },
+    {
+      "path": "data/raw/internal_validation/2013-2014/DEMO_H.XPT",
+      "bytes": 3833200,
+      "sha256": "f8f0cbb3085a323d4cde22349b164878fea1e64dbc404e65b5815c7816b547d7"
+    },
+    {
+      "path": "data/raw/temporal_test/2017-2018/BIOPRO_J.XPT",
+      "bytes": 2106080,
+      "sha256": "5bcd5722c1892883b96a9d7fed0befadabacae313f800fadc0133cd5dd00c4c6"
+    },
+    {
+      "path": "data/raw/temporal_test/2017-2018/DEMO_J.XPT",
+      "bytes": 3412720,
+      "sha256": "c0b46e0345ea19404928656277c8b0d10b0cca348a9b2fe4fc3c67e8b7ee73ec"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_1999_2000_MORT_2019_PUBLIC.dat",
+      "bytes": 487666,
+      "sha256": "562bd367107add0b2b40fed36a062d8b194fca31e11aab897a0efad4bebc8b26"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_2001_2002_MORT_2019_PUBLIC.dat",
+      "bytes": 540362,
+      "sha256": "2788c8c8a02995ea5686882b5fe65b4b9cd415016031525f8a3c1a3646c47f1b"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_2003_2004_MORT_2019_PUBLIC.dat",
+      "bytes": 495722,
+      "sha256": "639f6b3292a55b112fbfc842954af3d8d32bcce287cd8ae49319e5aca1c033c0"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_2005_2006_MORT_2019_PUBLIC.dat",
+      "bytes": 506774,
+      "sha256": "69388ea13a4f395f29d9d21bc51941b9759003490d4b00f6ff12a1bc5f8dba5c"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_2007_2008_MORT_2019_PUBLIC.dat",
+      "bytes": 498376,
+      "sha256": "75f89bd545a13ba726a7eb56de4d62f6dfc8f0f76d505dc18ced9752d5e2c77d"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_2009_2010_MORT_2019_PUBLIC.dat",
+      "bytes": 517751,
+      "sha256": "eabf074331e20d3f3cbb8ddf21e3a43e517f5694187c12b755741f4472894786"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_2011_2012_MORT_2019_PUBLIC.dat",
+      "bytes": 475574,
+      "sha256": "ff98b6c87172643426b1c6d20f76495592bebd618ea18f742d98a44b84456b30"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_2013_2014_MORT_2019_PUBLIC.dat",
+      "bytes": 494268,
+      "sha256": "588acea1d4cdf47a14cc9a35bd56e372739b8788d63ca0af98bf954c70c29905"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_2015_2016_MORT_2019_PUBLIC.dat",
+      "bytes": 484288,
+      "sha256": "f392baaf9c20a4c75bc9936775ba956e64528fa5ada5102b08f86f64e41e84a0"
+    },
+    {
+      "path": "data/raw_mortality/NHANES_2017_2018_MORT_2019_PUBLIC.dat",
+      "bytes": 449623,
+      "sha256": "42989d4fe35754d696b770f26553b0a309c110a9e26ab0ee504be3eae5987523"
+    },
+    {
+      "path": "external_nhanes3/raw_features/adult.dat",
+      "bytes": 67107314,
+      "sha256": "32a93a474cbd3bd0dd2ddc82153c47cf0b9f81eda025e255dd251bb5620a3adf"
+    },
+    {
+      "path": "external_nhanes3/raw_features/lab.dat",
+      "bytes": 57945628,
+      "sha256": "b87ae166c02e4907b08b7a52a1c01122b4173ec2970b891b624f43cedc038e48"
+    },
+    {
+      "path": "external_nhanes3/locked_mortality/NHANES_III_MORT_2019_PUBLIC.dat",
+      "bytes": 1663910,
+      "sha256": "224293447dbb8ec9412acf05441ab7d271124a17419dba6cf236ae36d5dd5b98"
+    }
+  ]
+}

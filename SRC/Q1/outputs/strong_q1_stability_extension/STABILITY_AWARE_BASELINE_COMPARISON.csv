@@ -1,0 +1,7 @@
+method,features,cohort,harrell_c,selected_features,external_outcomes_used_for_selection_or_tuning
+TES-11,11,2013-2014 audit,0.8582890481683908,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l,False
+Cox stability-selection consensus top-11,11,2013-2014 audit,0.8548612818427672,age_years; sex_code; albumin_g_l; bun_mmol_l; creatinine_umol_l; osmolality_mmol_kg; potassium_mmol_l; glucose_mmol_l; uric_acid_umol_l; ldh_u_l; alp_u_l,False
+Resampling-consensus SHAP top-11,11,2013-2014 audit,0.8570134012717745,age_years; sex_code; albumin_g_l; alp_u_l; alt_u_l; bun_mmol_l; chloride_mmol_l; creatinine_umol_l; ggt_u_l; glucose_mmol_l; ldh_u_l,False
+TES-11,11,NHANES III external,0.8493867110451929,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l,False
+Cox stability-selection consensus top-11,11,NHANES III external,0.8471766961410822,age_years; sex_code; albumin_g_l; bun_mmol_l; creatinine_umol_l; osmolality_mmol_kg; potassium_mmol_l; glucose_mmol_l; uric_acid_umol_l; ldh_u_l; alp_u_l,False
+Resampling-consensus SHAP top-11,11,NHANES III external,0.8491724689860323,age_years; sex_code; albumin_g_l; alp_u_l; alt_u_l; bun_mmol_l; chloride_mmol_l; creatinine_umol_l; ggt_u_l; glucose_mmol_l; ldh_u_l,False

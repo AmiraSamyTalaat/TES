@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "train_rows": 24666,
+  "validation_rows": 11353,
+  "confirmatory_rows_read_for_fitting": 0,
+  "models": [
+    {
+      "model": "age_sex_cox",
+      "features": [
+        "age_years",
+        "sex_code"
+      ],
+      "n_features": 2,
+      "iterations": 6,
+      "final_partial_loglik": -54120.88239860573,
+      "train": {
+        "harrell_c": 0.8491281569329853,
+        "comparable_pairs": 118388164
+      },
+      "validation": {
+        "harrell_c": 0.8352911514932491,
+        "comparable_pairs": 13769069
+      },
+      "coefficients_standardized": {
+        "age_years": 2.880829331888266,
+        "sex_code": -0.36249441507083735
+      }
+    },
+    {
+      "model": "full_panel_cox",
+      "features": [
+        "age_years",
+        "sex_code",
+        "albumin_g_l",
+        "alp_u_l",
+        "alt_u_l",
+        "ast_u_l",
+        "bun_mmol_l",
+        "bicarbonate_mmol_l",
+        "calcium_mmol_l",
+        "cholesterol_mmol_l",
+        "chloride_mmol_l",
+        "creatinine_umol_l",
+        "ggt_u_l",
+        "globulin_g_l",
+        "glucose_mmol_l",
+        "iron_umol_l",
+        "ldh_u_l",
+        "osmolality_mmol_kg",
+        "phosphorus_mmol_l",
+        "potassium_mmol_l",
+        "sodium_mmol_l",
+        "bilirubin_umol_l",
+        "protein_g_l",
+        "triglycerides_mmol_l",
+        "uric_acid_umol_l"
+      ],
+      "n_features": 25,
+      "iterations": 10,
+      "final_partial_loglik": -53555.755286011634,
+      "train": {
+        "harrell_c": 0.8629224919815464,
+        "comparable_pairs": 118388164
+      },
+      "validation": {
+        "harrell_c": 0.8486105705476529,
+        "comparable_pairs": 13769069
+      },
+      "coefficients_standardized": {
+        "age_years": 2.6927620109306654,
+        "sex_code": -0.39159586282292563,
+        "albumin_g_l": -0.28921642272251524,
+        "alp_u_l": 0.06661409707337268,
+        "alt_u_l": -0.0807204670933085,
+        "ast_u_l": 0.05065115853980715,
+        "bun_mmol_l": -0.17107052468030504,
+        "bicarbonate_mmol_l": -0.13279476702999973,
+        "calcium_mmol_l": 0.024653712220538904,
+        "cholesterol_mmol_l": -0.06869275248457112,
+        "chloride_mmol_l": -0.1745290746167208,
+        "creatinine_umol_l": 0.03147447017824614,
+        "ggt_u_l": 0.01564669601640102,
+        "globulin_g_l": 0.10198766323326998,
+        "glucose_mmol_l": -0.05273711995691435,
+        "iron_umol_l": -0.06073537053880231,
+        "ldh_u_l": 0.06499066910384299,
+        "osmolality_mmol_kg": 0.6291045393060362,
+        "phosphorus_mmol_l": 0.04939688092304336,
+        "potassium_mmol_l": 0.0877640342359442,
+        "sodium_mmol_l": -0.40262575503784453,
+        "bilirubin_umol_l": 0.007175401896159456,
+        "protein_g_l": -0.05715411491299155,
+        "triglycerides_mmol_l": -0.001681721604108782,
+        "uric_acid_umol_l": 0.08123763113792813
+      }
+    }
+  ],
+  "full_panel_validation_c_gain": 0.013319419054403814
+}

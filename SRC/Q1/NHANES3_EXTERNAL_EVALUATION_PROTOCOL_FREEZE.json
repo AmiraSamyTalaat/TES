@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-08-28 before mortality download",
+  "external_cohort": "NHANES III adults with public-use 2019 linked mortality",
+  "models": ["frozen full XGBoost-AFT", "frozen TES-11 AFT", "frozen XGBoost-Cox"],
+  "primary_metric": "Harrell C",
+  "bootstrap_replicates": 1000,
+  "seed": 20260828,
+  "primary_tests": {
+    "full_aft_vs_xgboost_cox": "paired difference with 95% bootstrap CI",
+    "tes11_vs_full_aft": "paired noninferiority with margin -0.005"
+  },
+  "success_gates": {
+    "full_aft_c_minimum": 0.80,
+    "full_aft_vs_xgboost_cox_ci_lower_minimum": -0.005,
+    "tes11_vs_full_aft_ci_lower_minimum": -0.005
+  },
+  "rule": "No model fitting, tuning, feature selection, or threshold selection after mortality download. Report all results once."
+}

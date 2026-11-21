@@ -1,0 +1,8 @@
+{
+  "guard_test_passed": true,
+  "code": 2,
+  "environment_mismatch_expected": true,
+  "original_AFT_refit_same_runtime_completed": false,
+  "install_xgboost_3_4_1": "FAILED (package index unavailable by DNS)",
+  "xgboost_3_4_1_official_release_exists": true
+}

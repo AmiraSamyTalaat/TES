@@ -1,0 +1,5 @@
+selector,resamples,mean_selected_count,selected_count_2_5pct,selected_count_97_5pct,mean_pairwise_jaccard,median_pairwise_jaccard,nogueira_stability,mean_jaccard_to_frozen_tes11
+TES 90%-mass,200,11.615,11.0,12.0,0.9603391959798995,1.0,0.9617338135237251,0.9487499999999999
+Mean-SHAP 90%-mass,200,12.0,12.0,12.0,1.0,1.0,1.0,0.9166666666666665
+Latest-cycle SHAP 90%-mass,200,12.0,12.0,12.0,1.0,1.0,1.0,0.9166666666666665
+Cox-score top-11 base selector,200,11.0,11.0,11.0,0.9398473134905294,1.0,0.9407508320824904,0.5726373626373624

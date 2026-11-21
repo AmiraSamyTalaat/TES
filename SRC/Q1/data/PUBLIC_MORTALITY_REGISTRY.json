@@ -1,0 +1,10 @@
+{
+  "source_page": "https://www.cdc.gov/nchs/linked-data/mortality-files/index.html",
+  "data_dictionary": "https://www.cdc.gov/nchs/data/datalinkage/public-use-linked-mortality-files-data-dictionary.pdf",
+  "release": "2019 public-use linked mortality",
+  "cycles": [
+    "1999_2000", "2001_2002", "2003_2004", "2005_2006", "2007_2008",
+    "2009_2010", "2011_2012", "2013_2014", "2015_2016", "2017_2018"
+  ],
+  "url_template": "https://ftp.cdc.gov/pub/health_statistics/NCHS/datalinkage/linked_mortality/NHANES_{cycle}_MORT_2019_PUBLIC.dat"
+}

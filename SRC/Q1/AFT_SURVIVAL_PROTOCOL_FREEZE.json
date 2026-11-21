@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-08-27",
+  "objective": "survival:aft",
+  "event_interval": "[observed_month, observed_month]",
+  "right_censored_interval": "[last_observed_month, infinity]",
+  "distribution": "normal",
+  "distribution_scale": 1.0,
+  "parameters": {
+    "max_depth": 3,
+    "eta": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 20,
+    "reg_lambda": 5.0,
+    "reg_alpha": 0.1,
+    "seed": 20260827
+  },
+  "maximum_rounds": 800,
+  "early_stopping_rounds": 40,
+  "progression_gate": {
+    "validation_harrell_c_minimum": 0.85,
+    "noninferiority_vs_xgboost_cox": -0.01
+  },
+  "confirmatory_2015_2018_not_used": true,
+  "nhanes_iii_locked": true
+}

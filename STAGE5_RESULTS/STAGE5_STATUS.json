@@ -1,0 +1,13 @@
+{
+  "status": "EXPLORATORY_ONLY",
+  "model": "archived frozen XGBoost-Cox trained 1999-2008",
+  "selection_cycles": [
+    "2009-2010",
+    "2011-2012"
+  ],
+  "perturbation_target": "2011-2012 predictors only",
+  "original_unshifted_sample": "2009-2010",
+  "outcomes_used": "none",
+  "does_not_prove": "TES superiority, country transfer, lab assay historical differences, clinical validity, or end-to-end outcome robustness",
+  "scenario_count": 5
+}

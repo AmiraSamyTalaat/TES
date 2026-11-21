@@ -1,0 +1,29 @@
+{
+  "models": [
+    {
+      "model": "age_only_aft",
+      "internal_tuning_train_cycles": "1999-2006",
+      "internal_tuning_validation_cycle": "2007-2008",
+      "refit_cycles": "1999-2008",
+      "rounds": 198,
+      "file": "age_only_development_tuned.ubj",
+      "sha256": "59d5d6b654ecee44b5ecdf6912191de9b601819eb014a9bcd10773c8b1b01c59",
+      "post_hoc": true
+    },
+    {
+      "model": "age_sex_aft",
+      "internal_tuning_train_cycles": "1999-2006",
+      "internal_tuning_validation_cycle": "2007-2008",
+      "refit_cycles": "1999-2008",
+      "rounds": 299,
+      "file": "age_sex_development_tuned.ubj",
+      "sha256": "380deda893d9a2e22092ff507548f067813c6658349127137e230bae0bdd0f29",
+      "post_hoc": true
+    }
+  ],
+  "n_dev": 24666,
+  "n_inner_train": 18965,
+  "n_inner_tune": 5701,
+  "n_bootstrap": 250,
+  "design_note": "Only development-era outcomes used for early stopping and refit. Post-hoc comparison to frozen TES; original frozen TES model itself was selected using 2009-2012 validation, so audit 2013+ is the stronger independent comparison."
+}

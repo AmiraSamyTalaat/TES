@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "freeze_verified": true,
+  "manifest_sha256": "55ae2c3c5e7d3bf9a35b13235950a103fe9a0fdc1157ee730bfc5b9a2497a2fc",
+  "no_refit_or_tuning": true,
+  "cycles": [
+    {
+      "group": "2015-2016",
+      "rows": 5459,
+      "events": 250,
+      "median_followup_months": 48.0,
+      "cox_c": 0.8684776900699347,
+      "xgboost_c": 0.8762105210512716,
+      "paired_gain": 0.0077328309813369245,
+      "paired_gain_ci95": [
+        0.0027754917329585183,
+        0.012770015441021156
+      ],
+      "bootstrap_probability_gain_positive": 0.999
+    },
+    {
+      "group": "2017-2018",
+      "rows": 5231,
+      "events": 129,
+      "median_followup_months": 25.0,
+      "cox_c": 0.8403819835215984,
+      "xgboost_c": 0.8558131174190321,
+      "paired_gain": 0.015431133897433669,
+      "paired_gain_ci95": [
+        0.006867437008920763,
+        0.024699986354972954
+      ],
+      "bootstrap_probability_gain_positive": 1.0
+    }
+  ],
+  "pooled_secondary": {
+    "group": "pooled_secondary",
+    "rows": 10690,
+    "events": 379,
+    "cox_c": 0.8590716037292436,
+    "xgboost_c": 0.8697929827271763,
+    "paired_gain": 0.010721378997932685,
+    "paired_gain_ci95": [
+      0.006403564953607066,
+      0.015216843773206081
+    ]
+  },
+  "primary_success_gate_pass": true,
+  "freeze_stage": "PRE_CONFIRMATORY_MODEL_AND_CODE_FREEZE"
+}

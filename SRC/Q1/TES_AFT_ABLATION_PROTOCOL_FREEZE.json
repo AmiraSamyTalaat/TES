@@ -1,0 +1,14 @@
+{
+  "frozen_at": "2026-08-27",
+  "audit_cycle": "2013-2014",
+  "panel_size": 11,
+  "comparators": ["full AFT", "mean Top-SHAP AFT", "latest-cycle Top-SHAP AFT"],
+  "bootstrap_replicates": 500,
+  "seed": 20260827,
+  "gates": {
+    "paired_noninferiority_margin_vs_full": -0.005,
+    "paired_noninferiority_margin_vs_shap_ablations": -0.002
+  },
+  "confirmatory_2015_2018_not_used": true,
+  "nhanes_iii_locked": true
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "selected_features": [
+    "age_years",
+    "sex_code",
+    "alt_u_l",
+    "ggt_u_l",
+    "glucose_mmol_l",
+    "alp_u_l",
+    "chloride_mmol_l",
+    "albumin_g_l",
+    "bun_mmol_l",
+    "potassium_mmol_l",
+    "ldh_u_l"
+  ],
+  "selected_feature_count": 11,
+  "full_feature_count": 25,
+  "feature_reduction_fraction": 0.56,
+  "best_iteration": 362,
+  "metrics": {
+    "validation_full_c": 0.8620894048827847,
+    "validation_tes_c": 0.8614883838551466,
+    "audit_full_c": 0.859056552628427,
+    "audit_tes_c": 0.8582890481683908,
+    "validation_gain": -0.0006010210276381489,
+    "audit_gain": -0.0007675044600361502
+  },
+  "progression_gate_pass": true,
+  "confirmatory_2015_2018_used": false,
+  "nhanes_iii_read": false
+}

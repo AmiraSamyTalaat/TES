@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "replicates": 1000,
+  "confirmatory_rows_used": 0,
+  "mean_cox_c": 0.8486364721417224,
+  "mean_xgboost_c": 0.8608257418643452,
+  "mean_paired_gain": 0.012189269722622699,
+  "paired_gain_ci95": [
+    0.009316425354092628,
+    0.014873373597889802
+  ],
+  "probability_gain_positive": 1.0,
+  "success_gate_pass": true
+}

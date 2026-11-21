@@ -1,0 +1,10 @@
+direction_reliability_threshold,tes_mass_threshold,unconstrained_k_before_8_15_bounds,selected_feature_count,selected_features,audit_harrell_c,external_harrell_c
+0.05,0.9,11,11,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l,0.8582890481683908,0.8493867110451929
+0.05,0.925,13,13,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l; uric_acid_umol_l,0.8586549017171027,0.8495364662557041
+0.05,0.95,15,15,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l; uric_acid_umol_l; cholesterol_mmol_l; iron_umol_l,0.8599368525517891,0.8500852544145373
+0.1,0.9,11,11,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l,0.8582890481683908,0.8493867110451929
+0.1,0.925,13,13,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l; uric_acid_umol_l,0.8586549017171027,0.8495364662557041
+0.1,0.95,15,15,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l; uric_acid_umol_l; cholesterol_mmol_l; iron_umol_l,0.8599368525517891,0.8500852544145373
+0.15,0.9,11,11,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l,0.8582890481683908,0.8493867110451929
+0.15,0.925,13,13,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l; uric_acid_umol_l,0.8586549017171027,0.8495364662557041
+0.15,0.95,15,15,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l; uric_acid_umol_l; cholesterol_mmol_l; iron_umol_l,0.8599368525517891,0.8500852544145373

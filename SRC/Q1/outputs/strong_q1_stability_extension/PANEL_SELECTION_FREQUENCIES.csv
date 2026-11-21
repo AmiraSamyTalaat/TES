@@ -1,0 +1,101 @@
+selector,feature,selection_frequency
+TES 90%-mass,albumin_g_l,1.0
+TES 90%-mass,alp_u_l,1.0
+TES 90%-mass,alt_u_l,1.0
+TES 90%-mass,ast_u_l,0.0
+TES 90%-mass,bun_mmol_l,1.0
+TES 90%-mass,bicarbonate_mmol_l,0.0
+TES 90%-mass,calcium_mmol_l,0.0
+TES 90%-mass,cholesterol_mmol_l,0.0
+TES 90%-mass,chloride_mmol_l,1.0
+TES 90%-mass,creatinine_umol_l,0.615
+TES 90%-mass,ggt_u_l,1.0
+TES 90%-mass,globulin_g_l,0.0
+TES 90%-mass,glucose_mmol_l,1.0
+TES 90%-mass,iron_umol_l,0.0
+TES 90%-mass,ldh_u_l,1.0
+TES 90%-mass,osmolality_mmol_kg,0.0
+TES 90%-mass,phosphorus_mmol_l,0.0
+TES 90%-mass,potassium_mmol_l,1.0
+TES 90%-mass,sodium_mmol_l,0.0
+TES 90%-mass,bilirubin_umol_l,0.0
+TES 90%-mass,protein_g_l,0.0
+TES 90%-mass,triglycerides_mmol_l,0.0
+TES 90%-mass,uric_acid_umol_l,0.0
+TES 90%-mass,age_years,1.0
+TES 90%-mass,sex_code,1.0
+Mean-SHAP 90%-mass,albumin_g_l,1.0
+Mean-SHAP 90%-mass,alp_u_l,1.0
+Mean-SHAP 90%-mass,alt_u_l,1.0
+Mean-SHAP 90%-mass,ast_u_l,0.0
+Mean-SHAP 90%-mass,bun_mmol_l,1.0
+Mean-SHAP 90%-mass,bicarbonate_mmol_l,0.0
+Mean-SHAP 90%-mass,calcium_mmol_l,0.0
+Mean-SHAP 90%-mass,cholesterol_mmol_l,0.0
+Mean-SHAP 90%-mass,chloride_mmol_l,1.0
+Mean-SHAP 90%-mass,creatinine_umol_l,1.0
+Mean-SHAP 90%-mass,ggt_u_l,1.0
+Mean-SHAP 90%-mass,globulin_g_l,0.0
+Mean-SHAP 90%-mass,glucose_mmol_l,1.0
+Mean-SHAP 90%-mass,iron_umol_l,0.0
+Mean-SHAP 90%-mass,ldh_u_l,1.0
+Mean-SHAP 90%-mass,osmolality_mmol_kg,0.0
+Mean-SHAP 90%-mass,phosphorus_mmol_l,0.0
+Mean-SHAP 90%-mass,potassium_mmol_l,1.0
+Mean-SHAP 90%-mass,sodium_mmol_l,0.0
+Mean-SHAP 90%-mass,bilirubin_umol_l,0.0
+Mean-SHAP 90%-mass,protein_g_l,0.0
+Mean-SHAP 90%-mass,triglycerides_mmol_l,0.0
+Mean-SHAP 90%-mass,uric_acid_umol_l,0.0
+Mean-SHAP 90%-mass,age_years,1.0
+Mean-SHAP 90%-mass,sex_code,1.0
+Latest-cycle SHAP 90%-mass,albumin_g_l,1.0
+Latest-cycle SHAP 90%-mass,alp_u_l,1.0
+Latest-cycle SHAP 90%-mass,alt_u_l,1.0
+Latest-cycle SHAP 90%-mass,ast_u_l,0.0
+Latest-cycle SHAP 90%-mass,bun_mmol_l,1.0
+Latest-cycle SHAP 90%-mass,bicarbonate_mmol_l,0.0
+Latest-cycle SHAP 90%-mass,calcium_mmol_l,0.0
+Latest-cycle SHAP 90%-mass,cholesterol_mmol_l,0.0
+Latest-cycle SHAP 90%-mass,chloride_mmol_l,1.0
+Latest-cycle SHAP 90%-mass,creatinine_umol_l,1.0
+Latest-cycle SHAP 90%-mass,ggt_u_l,1.0
+Latest-cycle SHAP 90%-mass,globulin_g_l,0.0
+Latest-cycle SHAP 90%-mass,glucose_mmol_l,1.0
+Latest-cycle SHAP 90%-mass,iron_umol_l,0.0
+Latest-cycle SHAP 90%-mass,ldh_u_l,1.0
+Latest-cycle SHAP 90%-mass,osmolality_mmol_kg,0.0
+Latest-cycle SHAP 90%-mass,phosphorus_mmol_l,0.0
+Latest-cycle SHAP 90%-mass,potassium_mmol_l,1.0
+Latest-cycle SHAP 90%-mass,sodium_mmol_l,0.0
+Latest-cycle SHAP 90%-mass,bilirubin_umol_l,0.0
+Latest-cycle SHAP 90%-mass,protein_g_l,0.0
+Latest-cycle SHAP 90%-mass,triglycerides_mmol_l,0.0
+Latest-cycle SHAP 90%-mass,uric_acid_umol_l,0.0
+Latest-cycle SHAP 90%-mass,age_years,1.0
+Latest-cycle SHAP 90%-mass,sex_code,1.0
+Cox-score top-11 base selector,albumin_g_l,1.0
+Cox-score top-11 base selector,alp_u_l,0.895
+Cox-score top-11 base selector,alt_u_l,0.0
+Cox-score top-11 base selector,ast_u_l,0.0
+Cox-score top-11 base selector,bun_mmol_l,1.0
+Cox-score top-11 base selector,bicarbonate_mmol_l,0.0
+Cox-score top-11 base selector,calcium_mmol_l,0.0
+Cox-score top-11 base selector,cholesterol_mmol_l,0.0
+Cox-score top-11 base selector,chloride_mmol_l,0.1
+Cox-score top-11 base selector,creatinine_umol_l,1.0
+Cox-score top-11 base selector,ggt_u_l,0.1
+Cox-score top-11 base selector,globulin_g_l,0.0
+Cox-score top-11 base selector,glucose_mmol_l,0.99
+Cox-score top-11 base selector,iron_umol_l,0.0
+Cox-score top-11 base selector,ldh_u_l,0.925
+Cox-score top-11 base selector,osmolality_mmol_kg,1.0
+Cox-score top-11 base selector,phosphorus_mmol_l,0.0
+Cox-score top-11 base selector,potassium_mmol_l,1.0
+Cox-score top-11 base selector,sodium_mmol_l,0.0
+Cox-score top-11 base selector,bilirubin_umol_l,0.0
+Cox-score top-11 base selector,protein_g_l,0.0
+Cox-score top-11 base selector,triglycerides_mmol_l,0.0
+Cox-score top-11 base selector,uric_acid_umol_l,0.99
+Cox-score top-11 base selector,age_years,1.0
+Cox-score top-11 base selector,sex_code,1.0

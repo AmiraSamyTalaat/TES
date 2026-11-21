@@ -1,0 +1,76 @@
+cohort,model,subgroup,N,deaths,harrell_c,interpretation_flag
+2009-2012 validation,XGBoost-Cox,Male,5538,798,0.8537637627779638,descriptive only
+2009-2012 validation,XGBoost-Cox,Female,5815,593,0.8652455189547203,descriptive only
+2009-2012 validation,XGBoost-Cox,Age 20–39,3901,60,0.6731114197928357,descriptive only
+2009-2012 validation,XGBoost-Cox,Age 40–59,3766,226,0.7490692757624869,descriptive only
+2009-2012 validation,XGBoost-Cox,Age >=60,3686,1105,0.7795152644640493,descriptive only
+2009-2012 validation,Full AFT,Male,5538,798,0.8534957620163742,descriptive only
+2009-2012 validation,Full AFT,Female,5815,593,0.8680603859515148,descriptive only
+2009-2012 validation,Full AFT,Age 20–39,3901,60,0.6910589111916545,descriptive only
+2009-2012 validation,Full AFT,Age 40–59,3766,226,0.7530155998852851,descriptive only
+2009-2012 validation,Full AFT,Age >=60,3686,1105,0.7782459331048208,descriptive only
+2009-2012 validation,TES-11 AFT,Male,5538,798,0.853352504382423,descriptive only
+2009-2012 validation,TES-11 AFT,Female,5815,593,0.866829888829362,descriptive only
+2009-2012 validation,TES-11 AFT,Age 20–39,3901,60,0.6934759810866006,descriptive only
+2009-2012 validation,TES-11 AFT,Age 40–59,3766,226,0.7483029539073077,descriptive only
+2009-2012 validation,TES-11 AFT,Age >=60,3686,1105,0.7764888237560199,descriptive only
+2013-2014 audit,XGBoost-Cox,Male,2667,226,0.8369949039332504,descriptive only
+2013-2014 audit,XGBoost-Cox,Female,2911,218,0.8796158796158796,descriptive only
+2013-2014 audit,XGBoost-Cox,Age 20–39,1878,24,0.6645138562705496,descriptive only
+2013-2014 audit,XGBoost-Cox,Age 40–59,1919,69,0.7753059047811006,descriptive only
+2013-2014 audit,XGBoost-Cox,Age >=60,1781,351,0.780895430560064,descriptive only
+2013-2014 audit,Full AFT,Male,2667,226,0.8371366659056934,descriptive only
+2013-2014 audit,Full AFT,Female,2911,218,0.8810999971714257,descriptive only
+2013-2014 audit,Full AFT,Age 20–39,1878,24,0.6496007515265383,descriptive only
+2013-2014 audit,Full AFT,Age 40–59,1919,69,0.7815289780218857,descriptive only
+2013-2014 audit,Full AFT,Age >=60,1781,351,0.7810700023402055,descriptive only
+2013-2014 audit,TES-11 AFT,Male,2667,226,0.8362750476835725,descriptive only
+2013-2014 audit,TES-11 AFT,Female,2911,218,0.8801338622767194,descriptive only
+2013-2014 audit,TES-11 AFT,Age 20–39,1878,24,0.664466885861907,descriptive only
+2013-2014 audit,TES-11 AFT,Age 40–59,1919,69,0.7736346610902556,descriptive only
+2013-2014 audit,TES-11 AFT,Age >=60,1781,351,0.7777852219798138,descriptive only
+2015-2016 frozen confirmation,XGBoost-Cox,Male,2617,160,0.8815144826834519,descriptive only
+2015-2016 frozen confirmation,XGBoost-Cox,Female,2842,90,0.856418120703644,descriptive only
+2015-2016 frozen confirmation,XGBoost-Cox,Age 20–39,1860,6,0.6188723289639073,CAUTION: sparse deaths
+2015-2016 frozen confirmation,XGBoost-Cox,Age 40–59,1793,27,0.7354314509604494,descriptive only
+2015-2016 frozen confirmation,XGBoost-Cox,Age >=60,1806,217,0.7699505548642142,descriptive only
+2015-2016 frozen confirmation,Full AFT,Male,2617,160,0.8818169432409603,descriptive only
+2015-2016 frozen confirmation,Full AFT,Female,2842,90,0.858018527269323,descriptive only
+2015-2016 frozen confirmation,Full AFT,Age 20–39,1860,6,0.5432752738373137,CAUTION: sparse deaths
+2015-2016 frozen confirmation,Full AFT,Age 40–59,1793,27,0.7312706594854488,descriptive only
+2015-2016 frozen confirmation,Full AFT,Age >=60,1806,217,0.7748950684427947,descriptive only
+2015-2016 frozen confirmation,TES-11 AFT,Male,2617,160,0.8816997738357993,descriptive only
+2015-2016 frozen confirmation,TES-11 AFT,Female,2842,90,0.8570422346846887,descriptive only
+2015-2016 frozen confirmation,TES-11 AFT,Age 20–39,1860,6,0.5856527204165919,CAUTION: sparse deaths
+2015-2016 frozen confirmation,TES-11 AFT,Age 40–59,1793,27,0.724983241256559,descriptive only
+2015-2016 frozen confirmation,TES-11 AFT,Age >=60,1806,217,0.7759255520770874,descriptive only
+2017-2018 stress,XGBoost-Cox,Male,2528,80,0.823431901726304,descriptive only
+2017-2018 stress,XGBoost-Cox,Female,2703,49,0.8921937828301937,descriptive only
+2017-2018 stress,XGBoost-Cox,Age 20–39,1578,4,0.5278986192547759,CAUTION: sparse deaths
+2017-2018 stress,XGBoost-Cox,Age 40–59,1644,18,0.8008819792211676,CAUTION: sparse deaths
+2017-2018 stress,XGBoost-Cox,Age >=60,2009,107,0.7663694388659845,descriptive only
+2017-2018 stress,Full AFT,Male,2528,80,0.836827043878833,descriptive only
+2017-2018 stress,Full AFT,Female,2703,49,0.892123393135245,descriptive only
+2017-2018 stress,Full AFT,Age 20–39,1578,4,0.5674295441649329,CAUTION: sparse deaths
+2017-2018 stress,Full AFT,Age 40–59,1644,18,0.7970700351296809,CAUTION: sparse deaths
+2017-2018 stress,Full AFT,Age >=60,2009,107,0.783386383088223,descriptive only
+2017-2018 stress,TES-11 AFT,Male,2528,80,0.837446489228049,descriptive only
+2017-2018 stress,TES-11 AFT,Female,2703,49,0.8904340404564772,descriptive only
+2017-2018 stress,TES-11 AFT,Age 20–39,1578,4,0.5392472101380745,CAUTION: sparse deaths
+2017-2018 stress,TES-11 AFT,Age 40–59,1644,18,0.8122056954929366,CAUTION: sparse deaths
+2017-2018 stress,TES-11 AFT,Age >=60,2009,107,0.781106828594284,descriptive only
+NHANES III earlier era,XGBoost-Cox,Male,7750,3634,0.8394005621361744,descriptive only
+NHANES III earlier era,XGBoost-Cox,Female,8769,3447,0.860039667068933,descriptive only
+NHANES III earlier era,XGBoost-Cox,Age 20–39,6830,727,0.661983598862666,descriptive only
+NHANES III earlier era,XGBoost-Cox,Age 40–59,4431,1596,0.7090924402773489,descriptive only
+NHANES III earlier era,XGBoost-Cox,Age >=60,5258,4758,0.7163549669850973,descriptive only
+NHANES III earlier era,Full AFT,Male,7750,3634,0.8393297848151079,descriptive only
+NHANES III earlier era,Full AFT,Female,8769,3447,0.8594286986444442,descriptive only
+NHANES III earlier era,Full AFT,Age 20–39,6830,727,0.664179761897661,descriptive only
+NHANES III earlier era,Full AFT,Age 40–59,4431,1596,0.705177336497895,descriptive only
+NHANES III earlier era,Full AFT,Age >=60,5258,4758,0.715666293419379,descriptive only
+NHANES III earlier era,TES-11 AFT,Male,7750,3634,0.8388478961666794,descriptive only
+NHANES III earlier era,TES-11 AFT,Female,8769,3447,0.8568988817446914,descriptive only
+NHANES III earlier era,TES-11 AFT,Age 20–39,6830,727,0.6649866046213713,descriptive only
+NHANES III earlier era,TES-11 AFT,Age 40–59,4431,1596,0.7003815947109199,descriptive only
+NHANES III earlier era,TES-11 AFT,Age >=60,5258,4758,0.7123100794690584,descriptive only

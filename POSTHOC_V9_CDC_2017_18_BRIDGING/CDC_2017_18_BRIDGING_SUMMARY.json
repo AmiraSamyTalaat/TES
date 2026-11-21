@@ -1,0 +1,44 @@
+{
+  "analysis": "post-hoc measurement-method bridging sensitivity; fixed frozen TES-11 AFT predictions only",
+  "target_cohort": "NHANES 2017-2018",
+  "n": 5231,
+  "deaths": 129,
+  "source": "CDC BIOPRO_J 2017-2018 Data Documentation, bridging equations to 2015-2016 DxC",
+  "source_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm",
+  "adjusted_predictors": [
+    "albumin_g_l",
+    "alp_u_l",
+    "alt_u_l",
+    "bun_mmol_l",
+    "ggt_u_l",
+    "ldh_u_l"
+  ],
+  "no_adjustment_recommended_predictors": [
+    "chloride_mmol_l",
+    "glucose_mmol_l",
+    "potassium_mmol_l"
+  ],
+  "original_harrell_c": 0.8630858099565115,
+  "bridged_harrell_c": 0.8664533922443138,
+  "delta_c_bridged_minus_original": 0.0033675822878023176,
+  "paired_participant_bootstrap_95CI_delta_c": [
+    -0.002052790713628061,
+    0.008035263412887097
+  ],
+  "bootstrap_repetitions_valid": 300,
+  "observed_kaplan_meier_risk_at_24m": 0.02299334878173831,
+  "censoring_KM_survival_at_24m": 0.5213009827321694,
+  "original_ipcw_brier_at_24m": 0.023245964796439055,
+  "bridged_ipcw_brier_at_24m": 0.02109579594879364,
+  "original_mean_predicted_24month_risk": 0.03657758507536122,
+  "bridged_mean_predicted_24month_risk": 0.0250137491555987,
+  "mean_absolute_change_predicted_24month_risk": 0.011564126960827856,
+  "fraction_with_changed_prediction": 0.9344293634104378,
+  "caveats": [
+    "CDC published formulas compare only 2017-2018 and 2015-2016 chemistry platforms, not all 1999-2018 or NHANES III eras",
+    "post-hoc reuse of 2017-2018 test outcomes",
+    "C-index uncertainty uses participants, not survey design",
+    "no refitting or modification of original sealed models",
+    "cannot establish any method superiority or accurate absolute risk calibration"
+  ]
+}

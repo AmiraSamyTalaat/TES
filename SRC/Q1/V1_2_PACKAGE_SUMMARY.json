@@ -1,0 +1,26 @@
+{
+  "package": "PROVLAB Strong-Q1 Master Source V1.2.0",
+  "latest_clean_manuscript": "MS_CLEAN.docx",
+  "latest_review_manuscript": "MS_REVIEW.docx",
+  "manuscript_title": "Temporal Explanation-Stable Feature Selection for Parsimonious Survival Machine Learning: Frozen Chronological and No-Refit External-Era Validation",
+  "frozen_confirmatory_artifacts_modified": false,
+  "v1_1_extension": "formal TES + component ablation + feature-selection baselines + censoring-aware survival metrics + calibration sensitivity",
+  "v1_2_extension": "200-resample panel stability + Jaccard/Nogueira + Cox stability-consensus comparator + TES parameter sensitivity",
+  "verification": {
+    "original_reviewer_package": "PASS",
+    "strong_q1_v1_1_extension": "PASS",
+    "strong_q1_v1_2_extension": "PASS",
+    "docx_visual_qa": "PASS (14 pages clean + 14 pages highlighted review)"
+  },
+  "important_sha256": {
+    "MS_CLEAN.docx": "8a211b22e0acda4317a04db6db762107a04fb35b6cf2845455e6043f33061ae7",
+    "MS_REVIEW.docx": "7aa778aaf5e02de96a9c865d15cdb81e362386e8f84c7f1703ae44deb14ac02b",
+    "src/run_strong_q1_extension.py": "666243f37e1b8a9b6d819b1055f9e35f0e6bfe96a6b4fdf647f41775ae9eac0a",
+    "src/run_strong_q1_stability_extension.py": "f72976d58a7c430222e3b7607795fac4880e62eebb7bcff9611fcf6d12e2104c",
+    "tools/build_strong_q1_manuscript_v1_2.py": "91e39899bc33a8b8318e4cb0f81d20483996b17e7b20454a6838aeb81b1eb961"
+  },
+  "file_count": 252,
+  "total_bytes": 223065853,
+  "max_relative_path_characters": 91,
+  "recommended_windows_extract_path": "C:\\Q1"
+}

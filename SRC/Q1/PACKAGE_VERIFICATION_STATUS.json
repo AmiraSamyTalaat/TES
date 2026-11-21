@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "required_files_checked": 18,
+  "successful_status_files": [
+    {
+      "file": "outputs/paired_bootstrap_validation/PAIRED_BOOTSTRAP_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/subgroup_audit/SUBGROUP_AUDIT_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/strong_q1_extension/STRONG_Q1_EXTENSION_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/xgboost_survival_pilot/XGBOOST_SURVIVAL_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/temporal_shap_stability/TEMPORAL_SHAP_STABILITY_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/aft_vs_cox_bootstrap/AFT_VS_COX_BOOTSTRAP_STATUS.json",
+      "status": "SUPERIOR"
+    },
+    {
+      "file": "outputs/cox_baseline/COX_BASELINE_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/nhanes3_locked_external/NHANES3_LOCKED_EXTERNAL_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/tes_aft_ablation/TES_AFT_ABLATION_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/tes_aft_pilot/TES_AFT_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/aft_survival_pilot/AFT_SURVIVAL_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/locked_confirmatory_evaluation/LOCKED_CONFIRMATORY_STATUS.json",
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/strong_q1_stability_extension/STRONG_Q1_STABILITY_EXTENSION_STATUS.json",
+      "status": "PASS"
+    }
+  ],
+  "manuscript_sha256": "249fc89de0f4f49a002c434190a3229b72182a916d66ada72f28a04971a3df1e",
+  "problems": []
+}

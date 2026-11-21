@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "confirmatory_rows_used": 0,
+  "groups": [
+    {
+      "group": "female",
+      "rows": 5815,
+      "events": 593,
+      "cox_c": 0.85117496606801,
+      "xgboost_c": 0.8652455189547203,
+      "paired_gain": 0.01407055288671033,
+      "gain_ci95_lower": 0.010855753867470914,
+      "gain_ci95_upper": 0.01780439036227181,
+      "bootstrap_probability_gain_positive": 1.0
+    },
+    {
+      "group": "male",
+      "rows": 5538,
+      "events": 798,
+      "cox_c": 0.8434825655065555,
+      "xgboost_c": 0.8537637627779638,
+      "paired_gain": 0.010281197271408304,
+      "gain_ci95_lower": 0.006321790876900849,
+      "gain_ci95_upper": 0.015099521658749686,
+      "bootstrap_probability_gain_positive": 1.0
+    },
+    {
+      "group": "age_20_39",
+      "rows": 3901,
+      "events": 60,
+      "cox_c": 0.6265224550622781,
+      "xgboost_c": 0.6731114197928357,
+      "paired_gain": 0.046588964730557625,
+      "gain_ci95_lower": 0.0008277586370633837,
+      "gain_ci95_upper": 0.10727898047387513,
+      "bootstrap_probability_gain_positive": 0.9766666666666667
+    },
+    {
+      "group": "age_40_59",
+      "rows": 3766,
+      "events": 226,
+      "cox_c": 0.6921973895702862,
+      "xgboost_c": 0.7490692757624869,
+      "paired_gain": 0.05687188619220074,
+      "gain_ci95_lower": 0.03720590567087988,
+      "gain_ci95_upper": 0.07857467690809641,
+      "bootstrap_probability_gain_positive": 1.0
+    },
+    {
+      "group": "age_60_plus",
+      "rows": 3686,
+      "events": 1105,
+      "cox_c": 0.7591198933047236,
+      "xgboost_c": 0.7795152644640493,
+      "paired_gain": 0.02039537115932566,
+      "gain_ci95_lower": 0.014822302585084624,
+      "gain_ci95_upper": 0.025843423742755237,
+      "bootstrap_probability_gain_positive": 1.0
+    }
+  ],
+  "model_freeze": {
+    "xgboost_model_sha256": "af3c40883853aedfef50c456da91c96b1f0773fdaf1a89abd0e23665133f13e2",
+    "xgboost_status_sha256": "87fba90d85ef17087518074e7a9713be19d36e0318b36e15bf6beacf7245b924",
+    "cox_status_sha256": "44f9665ede81b66897af06633a7b7d9380c25081c901825d610379fabc2822ff",
+    "subgroup_protocol_sha256": "1e0dcaa2d6cd4167a2bb0993a3331b3bb14f0d5d6db541c6043d2b9fdf54d8d7"
+  }
+}

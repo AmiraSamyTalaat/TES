@@ -1,0 +1,11 @@
+method,features,cohort,harrell_c,selected_features,selection_or_tuning_used_external_outcomes
+TES-11,11,2013-2014 audit,0.8582890481683908,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l,False
+TES-11,11,NHANES III external,0.8493867110451929,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l,False
+Mean-SHAP mass,12,2013-2014 audit,0.8579452584029243,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l,False
+Mean-SHAP mass,12,NHANES III external,0.8493718710921341,age_years; sex_code; alt_u_l; ggt_u_l; glucose_mmol_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l,False
+Latest-cycle SHAP mass,12,2013-2014 audit,0.8585234195802117,age_years; sex_code; alt_u_l; glucose_mmol_l; ggt_u_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l,False
+Latest-cycle SHAP mass,12,NHANES III external,0.8485801261228643,age_years; sex_code; alt_u_l; glucose_mmol_l; ggt_u_l; alp_u_l; chloride_mmol_l; albumin_g_l; bun_mmol_l; potassium_mmol_l; ldh_u_l; creatinine_umol_l,False
+XGBoost gain top-11,11,2013-2014 audit,0.8538952033335224,age_years; creatinine_umol_l; bun_mmol_l; glucose_mmol_l; osmolality_mmol_kg; albumin_g_l; sex_code; globulin_g_l; chloride_mmol_l; alp_u_l; ggt_u_l,False
+XGBoost gain top-11,11,NHANES III external,0.8493949064929537,age_years; creatinine_umol_l; bun_mmol_l; glucose_mmol_l; osmolality_mmol_kg; albumin_g_l; sex_code; globulin_g_l; chloride_mmol_l; alp_u_l; ggt_u_l,False
+Univariate Cox top-11,11,2013-2014 audit,0.851646948848946,age_years; sex_code; bun_mmol_l; osmolality_mmol_kg; creatinine_umol_l; potassium_mmol_l; uric_acid_umol_l; albumin_g_l; bicarbonate_mmol_l; chloride_mmol_l; globulin_g_l,False
+Univariate Cox top-11,11,NHANES III external,0.845486548224129,age_years; sex_code; bun_mmol_l; osmolality_mmol_kg; creatinine_umol_l; potassium_mmol_l; uric_acid_umol_l; albumin_g_l; bicarbonate_mmol_l; chloride_mmol_l; globulin_g_l,False

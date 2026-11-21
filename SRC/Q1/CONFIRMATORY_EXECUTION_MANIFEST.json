@@ -1,0 +1,14 @@
+{
+  "stage": "PRE_CONFIRMATORY_MODEL_AND_CODE_FREEZE",
+  "frozen_at": "2026-08-27",
+  "status": "FROZEN",
+  "critical_sha256": {
+    "outputs/xgboost_survival_pilot/xgboost_survival_model.ubj": "af3c40883853aedfef50c456da91c96b1f0773fdaf1a89abd0e23665133f13e2",
+    "outputs/xgboost_survival_pilot/XGBOOST_SURVIVAL_STATUS.json": "87fba90d85ef17087518074e7a9713be19d36e0318b36e15bf6beacf7245b924",
+    "outputs/cox_baseline/COX_BASELINE_STATUS.json": "44f9665ede81b66897af06633a7b7d9380c25081c901825d610379fabc2822ff",
+    "XGBOOST_SURVIVAL_PROTOCOL_FREEZE.json": "c906c6eb38f2509f794f653b47393b2123a92a85e886618a198b3979b663a0d7",
+    "CONFIRMATORY_EVALUATION_PROTOCOL_FREEZE.json": "58fea43eda92d9caf934f6878a3a322e44056d8c0e567a2497dc2a21d25301b0",
+    "src/run_locked_confirmatory_evaluation.py": "1a5e0a2500412321a512053b9316504ea1cb4e52f1452583ae8e9e60ab98f5d7"
+  },
+  "rule": "Any mismatch aborts execution. No model refit, tuning, threshold selection, or code change is allowed before reporting."
+}

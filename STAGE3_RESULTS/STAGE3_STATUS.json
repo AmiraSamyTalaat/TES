@@ -1,0 +1,6 @@
+{
+  "classification": "post-hoc supplemental analysis",
+  "missing": "survey-design variance, temporal drift experiment, linked mortality version/assay crosswalk, TRIPOD flow diagram",
+  "method": "Censor distribution fit separately per evaluation era (KM); fixed model predictions; Uno C pairs strictly time ordered, no same-time comparables; subgroup C descriptive; Bootstrap 400 pairs for 2015\u20132018 TES vs Full AFT",
+  "outcomes_used_for_refitting": "none"
+}

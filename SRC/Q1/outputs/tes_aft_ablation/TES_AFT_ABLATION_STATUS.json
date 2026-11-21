@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "audit_rows": 5578,
+  "audit_events": 444,
+  "feature_panels": {
+    "tes": [
+      "age_years",
+      "sex_code",
+      "alt_u_l",
+      "ggt_u_l",
+      "glucose_mmol_l",
+      "alp_u_l",
+      "chloride_mmol_l",
+      "albumin_g_l",
+      "bun_mmol_l",
+      "potassium_mmol_l",
+      "ldh_u_l"
+    ],
+    "mean_top_shap": [
+      "age_years",
+      "sex_code",
+      "alt_u_l",
+      "ggt_u_l",
+      "glucose_mmol_l",
+      "alp_u_l",
+      "chloride_mmol_l",
+      "albumin_g_l",
+      "bun_mmol_l",
+      "potassium_mmol_l",
+      "ldh_u_l"
+    ],
+    "latest_top_shap": [
+      "age_years",
+      "sex_code",
+      "alt_u_l",
+      "glucose_mmol_l",
+      "ggt_u_l",
+      "alp_u_l",
+      "chloride_mmol_l",
+      "albumin_g_l",
+      "bun_mmol_l",
+      "potassium_mmol_l",
+      "ldh_u_l"
+    ]
+  },
+  "audit_c": {
+    "tes": 0.8582890481683908,
+    "full": 0.859056552628427,
+    "mean_top_shap": 0.8582890481683908,
+    "latest_top_shap": 0.8581136636056544
+  },
+  "paired_comparisons": {
+    "full": {
+      "point_gain": -0.0007675044600361502,
+      "mean_bootstrap_gain": -0.0008268586412032695,
+      "gain_ci95": [
+        -0.0028615756387608436,
+        0.001289562146223296
+      ]
+    },
+    "mean_top_shap": {
+      "point_gain": 0.0,
+      "mean_bootstrap_gain": 0.0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "latest_top_shap": {
+      "point_gain": 0.00017538456273635816,
+      "mean_bootstrap_gain": 0.00017622660713706106,
+      "gain_ci95": [
+        -0.00032390139326311795,
+        0.0007317450104296208
+      ]
+    }
+  },
+  "ablation_gate_pass": true,
+  "confirmatory_2015_2018_used": false,
+  "nhanes_iii_read": false
+}

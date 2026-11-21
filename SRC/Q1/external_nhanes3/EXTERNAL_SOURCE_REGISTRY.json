@@ -1,0 +1,17 @@
+{
+  "official_index": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx",
+  "policy": "public CDC files only; mortality outcomes remain unopened until external protocol freeze",
+  "schema_files": {
+    "adult_phase1": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/adult.sas",
+    "lab_phase1": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/lab.sas",
+    "adult_phase2": "https://wwwn.cdc.gov/nchs/data/nhanes3/2a/adultx.sas",
+    "lab_phase2": "https://wwwn.cdc.gov/nchs/data/nhanes3/2a/lab2.sas"
+  },
+  "data_files_after_schema_audit": {
+    "adult_phase1": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/adult.dat",
+    "lab_phase1": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/lab.dat",
+    "adult_phase2": "https://wwwn.cdc.gov/nchs/data/nhanes3/2a/adultx.dat",
+    "lab_phase2": "https://wwwn.cdc.gov/nchs/data/nhanes3/2a/lab2.dat"
+  },
+  "linked_mortality_locked": "https://ftp.cdc.gov/pub/health_statistics/NCHS/datalinkage/linked_mortality/NHANES_III_MORT_2019_PUBLIC.dat"
+}

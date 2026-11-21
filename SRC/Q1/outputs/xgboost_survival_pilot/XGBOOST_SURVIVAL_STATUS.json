@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "train_rows": 24666,
+  "validation_rows": 11353,
+  "confirmatory_rows_used": 0,
+  "best_iteration": 413,
+  "validation_harrell_c": 0.8607646602686064,
+  "cox_baseline_harrell_c": 0.8486105705476529,
+  "gain_over_cox": 0.012154089720953554,
+  "progression_gate_pass": true
+}

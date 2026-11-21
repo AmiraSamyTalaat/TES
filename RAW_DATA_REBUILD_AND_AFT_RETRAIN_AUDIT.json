@@ -1,0 +1,24 @@
+{
+  "data_source": "Local pre-existing CDC public-use archive; no fresh CDC network re-download",
+  "archived_source_xpt_files_sha256_verified": 33,
+  "archived_mortality_files_sha256_verified": 10,
+  "reconstructed_harmonized_panel_shape": [
+    69132,
+    28
+  ],
+  "reconstructed_survival_cohort_shape": [
+    52287,
+    38
+  ],
+  "survival_total_events": 8311,
+  "cell_comparison_differences": 0,
+  "archived_original_aft_best_iteration": 345,
+  "archived_original_aft_validation_harrell_c": 0.8620894048827847,
+  "rerun_aft_best_iteration_with_xgboost_3_1_3": 465,
+  "rerun_aft_validation_harrell_c_with_xgboost_3_1_3": 0.8633699925535997,
+  "archived_frozen_requirements_xgboost": "3.4.1",
+  "current_environment_xgboost": "3.1.3",
+  "model_binary_identical": false,
+  "root_cause_proven": false,
+  "release_status": "CANDIDATE - model training rerun unresolved"
+}

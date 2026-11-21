@@ -1,0 +1,32 @@
+{
+  "classification": "EXPLORATORY POST-HOC REVIEWER EXTENSION",
+  "original_frozen_files_modified": false,
+  "source_sha256": "46ab1b99268029606d2a8c10bde1535d33d290d2218e7140816758986dbdad5c",
+  "cohorts": {
+    "2009-2012 validation": {
+      "n": 11353,
+      "deaths": 1391
+    },
+    "2013-2014 audit": {
+      "n": 5578,
+      "deaths": 444
+    },
+    "2015-2016 frozen confirmation": {
+      "n": 5459,
+      "deaths": 250
+    },
+    "2017-2018 short-follow-up stress": {
+      "n": 5231,
+      "deaths": 129
+    },
+    "NHANES III external": {
+      "n": 16519,
+      "deaths": 7081
+    }
+  },
+  "new_age_only_aft_best_iteration": 169,
+  "new_age_sex_aft_best_iteration": 202,
+  "paired_bootstrap_repetitions": 250,
+  "censoring_distribution": "estimated within each evaluation cohort for all new calibration/IPCW Brier analyses",
+  "warning": "Do not treat reconstructed calibration as sufficient until validated against methodological assumptions and software-version sensitivity; no survey-design robust standard errors in this stage; NHANES III is backward-era transfer."
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "audited_at": "2026-08-28",
+  "source": "official CDC NHANES III SAS input programs",
+  "mortality_file_read": false,
+  "adult_fixed_width_1_based": {
+    "participant_id": [1, 5, "SEQN"],
+    "sex_code": [15, 15, "HSSEX"],
+    "age_years": [18, 19, "HSAGEIR"],
+    "survey_psu": [43, 43, "SDPPSU6"],
+    "survey_stratum": [44, 45, "SDPSTRA6"],
+    "exam_weight": [61, 69, "WTPFEX6"]
+  },
+  "lab_fixed_width_1_based": {
+    "participant_id": [1, 5, "SEQN"],
+    "sodium_mmol_l": [1715, 1719, "NAPSI"],
+    "potassium_mmol_l": [1720, 1723, "SKPSI"],
+    "chloride_mmol_l": [1724, 1728, "CLPSI"],
+    "bicarbonate_mmol_l": [1729, 1730, "C3PSI"],
+    "calcium_mmol_l": [1735, 1739, "SCPSI"],
+    "phosphorus_mmol_l": [1744, 1748, "PSPSI"],
+    "uric_acid_umol_l": [1753, 1757, "UAPSI"],
+    "glucose_mmol_l": [1761, 1765, "SGPSI"],
+    "bun_mmol_l": [1769, 1773, "BUPSI"],
+    "bilirubin_umol_l": [1778, 1783, "TBPSI"],
+    "creatinine_umol_l": [1788, 1793, "CEPSI"],
+    "iron_umol_l": [1797, 1800, "SFPSI"],
+    "cholesterol_mmol_l": [1805, 1810, "CHPSI"],
+    "triglycerides_mmol_l": [1815, 1820, "TRPSI"],
+    "ast_u_l": [1821, 1823, "ASPSI"],
+    "alt_u_l": [1824, 1826, "ATPSI"],
+    "ggt_u_l": [1827, 1830, "GGPSI"],
+    "ldh_u_l": [1831, 1834, "LDPSI"],
+    "alp_u_l": [1835, 1838, "APPSI"],
+    "protein_g_l": [1843, 1845, "TPPSI"],
+    "albumin_g_l": [1849, 1851, "AMPSI"],
+    "globulin_g_l": [1855, 1857, "GBPSI"],
+    "osmolality_mmol_kg": [1858, 1860, "OSPSI"]
+  },
+  "matched_current_panel_analytes": 23,
+  "missing_current_panel_analytes": [],
+  "decision": "NHANES III is technically eligible as an external-era test after feature-only parsing and pre-outcome freeze."
+}

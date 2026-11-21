@@ -1,0 +1,7 @@
+{
+  "status": "DONE",
+  "n_comparisons": 16,
+  "source": "existing frozen and post-hoc saved models",
+  "bootstrap_repetitions": 300,
+  "note": "CIs describe sampling uncertainty for model-score differences on fixed cohorts and are not evidence of clinical relevance or prespecified superiority"
+}

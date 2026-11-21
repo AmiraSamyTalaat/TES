@@ -1,0 +1,5 @@
+﻿Model,Objective,Frozen shared tree settings,Training and selection
+XGBoost-Cox,survival:cox,max_depth=3; eta=0.03; subsample=0.8; colsample_bytree=0.8; min_child_weight=20; λ=5; α=0.1; seed=20260827,1999–2008 development; 2009–2012 model selection; maximum 800 rounds; early stopping after 40; archived best iteration 413.
+XGBoost-AFT full panel,survival:aft; normal; distribution_scale=1.0,Same tree settings as XGBoost-Cox,1999–2008 development; 2009–2012 model selection; maximum 800 rounds; early stopping after 40; archived best iteration 345.
+TES-11 AFT,survival:aft; normal; distribution_scale=1.0,Same tree settings as full AFT,11 predictors selected from 2009–2012 cross-cycle SHAP; 2013–2014 independent audit; saved TES-11 booster best iteration 362.
+Age-only and age+sex AFT (post-hoc),survival:aft; normal; distribution_scale=1.0,Same AFT tree settings; nthread=4,1999–2006 internal train; 2007–2008 early stop; refit all development; 198 / 299 rounds

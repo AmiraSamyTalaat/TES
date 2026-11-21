@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-08-27",
+  "replicates": 1000,
+  "seed": 20260827,
+  "resampling_unit": "participant",
+  "stratification": "NHANES validation cycle",
+  "comparison": "XGBoost survival minus full-panel Cox Harrell C",
+  "interval": "paired percentile 95% confidence interval",
+  "success_gate": "lower confidence limit greater than zero",
+  "confirmatory_cycles_locked": ["2015-2016", "2017-2018"]
+}

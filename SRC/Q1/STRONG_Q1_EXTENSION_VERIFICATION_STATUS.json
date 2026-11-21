@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "numeric_tolerance": 1e-06,
+  "reference": "reference/strong_q1_extension",
+  "current": "outputs/strong_q1_extension",
+  "note": "Numeric outputs agree with the archived Strong-Q1 reference within tolerance; model bytes are required to exist but are not required to be byte-identical across runtimes."
+}

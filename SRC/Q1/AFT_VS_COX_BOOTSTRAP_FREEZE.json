@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-08-27",
+  "replicates": 1000,
+  "seed": 20260827,
+  "resampling": "participant bootstrap stratified by validation cycle",
+  "comparison": "XGBoost-AFT minus XGBoost-Cox Harrell C",
+  "superiority_gate": "paired 95% confidence interval lower bound greater than zero",
+  "confirmatory_2015_2018_not_used": true,
+  "nhanes_iii_locked": true
+}

@@ -1,0 +1,15 @@
+{
+  "frozen_at": "2026-08-27",
+  "method": "Temporal Explanation-Stable sparse AFT (TES-AFT)",
+  "selection_cycles": ["2009-2010", "2011-2012"],
+  "audit_cycle": "2013-2014",
+  "stable_score": "mean normalized absolute SHAP divided by (1 + temporal coefficient of variation), multiplied by direction sign agreement",
+  "selection_rule": "smallest ranked panel reaching 90% stable-score mass, minimum 8 and maximum 15 features; age and sex forced",
+  "gates": {
+    "maximum_features": 15,
+    "validation_noninferiority_margin": -0.005,
+    "audit_noninferiority_margin": -0.005
+  },
+  "confirmatory_2015_2018_not_used": true,
+  "nhanes_iii_locked": true
+}

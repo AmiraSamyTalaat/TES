@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "numeric_tolerance": 1e-06,
+  "current": "outputs/strong_q1_stability_extension",
+  "reference": "reference/strong_q1_stability_extension",
+  "resamples": 200,
+  "note": "V1.2 stability/sensitivity numeric outputs agree with archived reference within tolerance; regenerated model bytes are required to exist but are not required to be byte-identical across runtimes."
+}

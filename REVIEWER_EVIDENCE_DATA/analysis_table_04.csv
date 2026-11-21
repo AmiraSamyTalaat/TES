@@ -1,0 +1,26 @@
+﻿Cohort,Group,N,Deaths,Harrell C
+2009-2012 validation,Male,5538,798,0.853
+2009-2012 validation,Female,5815,593,0.867
+2009-2012 validation,Age 20–39,3901,60,0.693
+2009-2012 validation,Age 40–59,3766,226,0.748
+2009-2012 validation,≥60 years,3686,1105,0.776
+2013-2014 audit,Male,2667,226,0.836
+2013-2014 audit,Female,2911,218,0.880
+2013-2014 audit,Age 20–39,1878,24,0.664
+2013-2014 audit,Age 40–59,1919,69,0.774
+2013-2014 audit,≥60 years,1781,351,0.778
+2015-2016 frozen confirmation,Male,2617,160,0.882
+2015-2016 frozen confirmation,Female,2842,90,0.857
+2015-2016 frozen confirmation,Age 20–39,1860,6,0.586
+2015-2016 frozen confirmation,Age 40–59,1793,27,0.725
+2015-2016 frozen confirmation,≥60 years,1806,217,0.776
+2017-2018 stress,Male,2528,80,0.837
+2017-2018 stress,Female,2703,49,0.890
+2017-2018 stress,Age 20–39,1578,4,0.539
+2017-2018 stress,Age 40–59,1644,18,0.812
+2017-2018 stress,≥60 years,2009,107,0.781
+NHANES III earlier era,Male,7750,3634,0.839
+NHANES III earlier era,Female,8769,3447,0.857
+NHANES III earlier era,Age 20–39,6830,727,0.665
+NHANES III earlier era,Age 40–59,4431,1596,0.700
+NHANES III earlier era,≥60 years,5258,4758,0.712

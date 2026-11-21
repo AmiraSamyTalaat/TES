@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-08-27",
+  "dataset": "validation cycles 2009-2012 only",
+  "groups": ["female", "male", "age_20_39", "age_40_59", "age_60_plus"],
+  "bootstrap_replicates": 300,
+  "bootstrap_stratification": "cycle within subgroup",
+  "primary_comparison": "paired Harrell C gain: XGBoost survival minus full-panel Cox",
+  "purpose": "heterogeneity audit; not subgroup-specific tuning",
+  "confirmatory_cycles_locked": ["2015-2016", "2017-2018"]
+}

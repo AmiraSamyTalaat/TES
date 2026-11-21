@@ -1,0 +1,6 @@
+﻿Metric,Unadjusted 2017–2018,CDC bridged to 2015–2016,Interpretation
+Harrell C,0.86309,0.86645,ΔC +0.00337; paired 95% CI −0.00205 to +0.00804
+Mean predicted 24-month risk,3.66%,2.50%,Observed 24-month KM risk: 2.30%
+"IPCW Brier, 24 months",0.02325,0.02110,Cohort-specific censoring KM; G(24)=0.521
+Model fitting,Frozen TES-11,Same frozen TES-11,"No refitting, retuning or reselection"
+Adjustment scope,Original SI panel,6 analytes adjusted,CDC only documents 2017–2018 vs 2015–2016; not NHANES III

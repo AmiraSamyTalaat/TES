@@ -1,0 +1,28 @@
+{
+  "unit_policy": "SI variables only where supplied by NHANES",
+  "analytes": {
+    "albumin_g_l": {"default": "LBDSALSI"},
+    "alp_u_l": {"default": "LBXSAPSI", "2001-2002": "LBDSAPSI"},
+    "alt_u_l": {"default": "LBXSATSI"},
+    "ast_u_l": {"default": "LBXSASSI"},
+    "bun_mmol_l": {"default": "LBDSBUSI"},
+    "bicarbonate_mmol_l": {"default": "LBXSC3SI"},
+    "calcium_mmol_l": {"default": "LBDSCASI"},
+    "cholesterol_mmol_l": {"default": "LBDSCHSI"},
+    "chloride_mmol_l": {"default": "LBXSCLSI"},
+    "creatinine_umol_l": {"default": "LBDSCRSI"},
+    "ggt_u_l": {"default": "LBXSGTSI"},
+    "globulin_g_l": {"default": "LBDSGBSI"},
+    "glucose_mmol_l": {"default": "LBDSGLSI"},
+    "iron_umol_l": {"default": "LBDSIRSI"},
+    "ldh_u_l": {"default": "LBXSLDSI", "2001-2002": "LBDSLDSI"},
+    "osmolality_mmol_kg": {"default": "LBXSOSSI"},
+    "phosphorus_mmol_l": {"default": "LBDSPHSI"},
+    "potassium_mmol_l": {"default": "LBXSKSI"},
+    "sodium_mmol_l": {"default": "LBXSNASI"},
+    "bilirubin_umol_l": {"default": "LBDSTBSI"},
+    "protein_g_l": {"default": "LBDSTPSI"},
+    "triglycerides_mmol_l": {"default": "LBDSTRSI"},
+    "uric_acid_umol_l": {"default": "LBDSUASI"}
+  }
+}

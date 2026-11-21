@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE_EXPLORATORY",
+  "n_rows": 15,
+  "claim": "survey-design-sensitive weighted Harrell concordance, fixed models; not causal/clinical inference",
+  "development_1999_2008_excluded": true,
+  "survey_weight_caveats": "original archive pooled_exam_weight_20yr is NOT compliant for combining 1999\u20132000 with later eras. Laboratory subsample-specific weights need evaluation."
+}

@@ -1,0 +1,65 @@
+{
+  "study": "OPHRP-2026-0654 TES/NHANES",
+  "verified_on": "2026-11-20",
+  "source": "candidate v2 public safe ZIP in a fresh extraction plus independently mounted archived local participant input directories",
+  "core_source_sha256_static_manifest": "all entries verified after reconstruction",
+  "unit_tests": {
+    "result": "PASS",
+    "weighted_and_unweighted_cindex_random_cases": 30,
+    "censor_km_hand_check": true
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "result": "EXACT MATCH",
+      "csv_rows": {
+        "AGE_BASELINE_C_INDEX_BY_ERA": 35,
+        "PAIRED_BOOTSTRAP_DELTAC_95CI": 20,
+        "PREDICTOR_MISSINGNESS_BY_COHORT": 150,
+        "CALIBRATION_COHORT_SPECIFIC_CENSORING": 36,
+        "CALIBRATION_DECILE_KM_CURVES": 360
+      },
+      "age_only_and_age_sex_binary_sha256_exact": true
+    },
+    {
+      "stage": 2,
+      "result": "EXACT MATCH",
+      "selector_comparisons": 16
+    },
+    {
+      "stage": 3,
+      "result": "EXACT MATCH",
+      "cohort_metrics": 27,
+      "subgroups": 75,
+      "contrasts": 2
+    },
+    {
+      "stage": 4,
+      "result": "EXACT MATCH",
+      "weighted_model_cohort_rows": 15
+    },
+    {
+      "stage": 5,
+      "result": "EXACT MATCH",
+      "shift_scenarios": 5,
+      "shap_profile_rows": 125
+    },
+    {
+      "stage": 6,
+      "result": "EXACT MATCH",
+      "nhanes_cycles": 10,
+      "nhanes_iii_verified": true
+    }
+  ],
+  "not_verified": [
+    "end-to-end CDC redownload and original model retraining in new environment",
+    "NHANES III assay methodology and full unit crosswalk",
+    "survey weights per analyte and design-based clinical inference",
+    "full calibration estimator correctness",
+    "genuine temporal shift predictive superiority",
+    "final journal reporting and declaration compliance"
+  ],
+  "public_repository_published": false,
+  "raw_individual_data_in_zip": false,
+  "not_submission_approved": true
+}

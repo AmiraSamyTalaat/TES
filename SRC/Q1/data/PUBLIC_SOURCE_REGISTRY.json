@@ -1,0 +1,76 @@
+{
+  "policy": "CDC public-use direct downloads only; no account, application, token, or restricted source",
+  "base": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public",
+  "cycles": [
+    {
+      "cycle": "1999-2000",
+      "year_path": "1999",
+      "partition": "development",
+      "laboratory": "LAB18",
+      "demographics": "DEMO"
+    },
+    {
+      "cycle": "2001-2002",
+      "year_path": "2001",
+      "partition": "development",
+      "laboratory": "L40_B",
+      "demographics": "DEMO_B"
+    },
+    {
+      "cycle": "2003-2004",
+      "year_path": "2003",
+      "partition": "development",
+      "laboratory": "L40_C",
+      "demographics": "DEMO_C"
+    },
+    {
+      "cycle": "2005-2006",
+      "year_path": "2005",
+      "partition": "development",
+      "laboratory": "BIOPRO_D",
+      "demographics": "DEMO_D"
+    },
+    {
+      "cycle": "2007-2008",
+      "year_path": "2007",
+      "partition": "development",
+      "laboratory": "BIOPRO_E",
+      "demographics": "DEMO_E"
+    },
+    {
+      "cycle": "2009-2010",
+      "year_path": "2009",
+      "partition": "development",
+      "laboratory": "BIOPRO_F",
+      "demographics": "DEMO_F"
+    },
+    {
+      "cycle": "2011-2012",
+      "year_path": "2011",
+      "partition": "internal_validation",
+      "laboratory": "BIOPRO_G",
+      "demographics": "DEMO_G"
+    },
+    {
+      "cycle": "2013-2014",
+      "year_path": "2013",
+      "partition": "internal_validation",
+      "laboratory": "BIOPRO_H",
+      "demographics": "DEMO_H"
+    },
+    {
+      "cycle": "2015-2016",
+      "year_path": "2015",
+      "partition": "calibration",
+      "laboratory": "BIOPRO_I",
+      "demographics": "DEMO_I"
+    },
+    {
+      "cycle": "2017-2018",
+      "year_path": "2017",
+      "partition": "temporal_test",
+      "laboratory": "BIOPRO_J",
+      "demographics": "DEMO_J"
+    }
+  ]
+}

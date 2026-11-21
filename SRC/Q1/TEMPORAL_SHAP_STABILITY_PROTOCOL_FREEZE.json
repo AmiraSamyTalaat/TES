@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-08-27",
+  "cycles": ["2009-2010", "2011-2012", "2013-2014"],
+  "model": "frozen XGBoost survival model",
+  "metrics": [
+    "Spearman correlation of global mean absolute SHAP importance",
+    "Jensen-Shannon divergence of normalized SHAP importance",
+    "feature-direction correlation sign flips",
+    "top-10 feature overlap"
+  ],
+  "direction_definition": "Spearman correlation between feature value and its SHAP contribution within cycle",
+  "gates": {
+    "minimum_pairwise_importance_spearman": 0.85,
+    "maximum_pairwise_js_divergence": 0.10,
+    "minimum_top10_overlap": 0.70,
+    "maximum_direction_flip_fraction": 0.20
+  },
+  "confirmatory_2015_2018_not_used": true,
+  "nhanes_iii_locked": true
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.env.*
+*.key
+*_token*
+kaggle.json
+private/
+**/person_level/
+**/raw_linked_mortality/

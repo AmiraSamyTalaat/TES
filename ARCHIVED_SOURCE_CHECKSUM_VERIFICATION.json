@@ -1,0 +1,6 @@
+{
+  "xpt_files_verified": 33,
+  "linked_mortality_files_verified": 10,
+  "mismatches": [],
+  "note": "Compared locally archived raw files to archived SHA-256 manifests; not fresh CDC download verification."
+}

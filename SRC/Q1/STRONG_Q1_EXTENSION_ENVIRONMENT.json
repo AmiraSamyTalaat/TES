@@ -1,0 +1,15 @@
+{
+  "analysis_classification": "post-hoc manuscript-strengthening extension",
+  "tested_runtime": {
+    "python": "3.13.5",
+    "platform": "Linux x86_64",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.14.6",
+    "xgboost": "3.1.3",
+    "python-docx": "1.2.0"
+  },
+  "reviewer_reproduction_note": "The original frozen study remains governed by the bundled Windows/CPython-3.12 runtime and freeze hashes. The Strong-Q1 extension is a separately labelled post-hoc strengthening analysis with pinned Python package versions and frozen reference outputs. Small floating-point differences may occur across operating systems; use the supplied verifier tolerance rather than byte-level comparison for regenerated numeric CSV outputs.",
+  "reference_outputs": "reference/strong_q1_extension"
+}

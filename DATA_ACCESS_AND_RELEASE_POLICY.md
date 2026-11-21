@@ -1,0 +1,1 @@
+Original frozen source files and reviewer additions are made available for scholarly reproducibility. Dataset downloads remain subject to CDC/NCHS access conditions. Public data must be downloaded independently; person-level datasets are not redistributed in this archive. No user-supplied license choice is assumed for this repository.

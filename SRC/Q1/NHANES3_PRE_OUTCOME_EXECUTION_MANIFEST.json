@@ -1,0 +1,20 @@
+{
+  "stage": "NHANES3_PRE_OUTCOME_EXTERNAL_FREEZE",
+  "frozen_at": "2026-08-28",
+  "status": "FROZEN",
+  "mortality_downloaded_at_freeze": false,
+  "critical_sha256": {
+    "external_nhanes3/processed_features/nhanes3_feature_cohort_locked_outcome.csv.gz": "54bf0f4914be4f6c5289d2e513330b7f7b5e556739def3b1622acf9ea64f5c14",
+    "external_nhanes3/NHANES3_SCHEMA_AUDIT.json": "c079a4db44fe3ee3d46d21d6b4503e3fa77465d6083e7085f0ee7264360558f6",
+    "src/build_nhanes3_feature_cohort.py": "4eea672758982419b3e8920dec3ce2e7281628e4921992db69d891ddbb393f7d",
+    "outputs/aft_survival_pilot/xgboost_aft_model.ubj": "662dbf0d73dbe4251f26acbabbd8069b23b4d31673d7a2a8165c63c7d733cde4",
+    "outputs/aft_survival_pilot/AFT_SURVIVAL_STATUS.json": "cf9c7abfa532178af273e8b0f468264a440aaa47285ade5c59c1ea7d413556a9",
+    "outputs/tes_aft_pilot/tes_aft_model.ubj": "8c675e93bbca5780cb85f6f54da9d857d0b8bfef60f90e273d2f4af0cd8a45c1",
+    "outputs/tes_aft_pilot/TES_AFT_STATUS.json": "270558044f88fe9016992187945be82e5970567bda40216b79c995648c0eec42",
+    "outputs/xgboost_survival_pilot/xgboost_survival_model.ubj": "af3c40883853aedfef50c456da91c96b1f0773fdaf1a89abd0e23665133f13e2",
+    "outputs/xgboost_survival_pilot/XGBOOST_SURVIVAL_STATUS.json": "87fba90d85ef17087518074e7a9713be19d36e0318b36e15bf6beacf7245b924",
+    "NHANES3_EXTERNAL_EVALUATION_PROTOCOL_FREEZE.json": "1d2070bb268ddbfe5de1ded901da06eb9bf41937f9cea91b4d8b0f1e183a4404",
+    "src/run_nhanes3_locked_external.py": "42824098418eab10e150faafe52d4fe33edd58999f3e416ef1716565f6976eaa"
+  },
+  "rule": "Any mismatch aborts external evaluation. No model fitting, tuning, feature selection, or code changes after outcome download."
+}

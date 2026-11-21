@@ -1,0 +1,16 @@
+cohort,model,c_index,n,deaths,development_only_tuning,post_hoc_baseline
+2009-2012 validation,age_only,0.8325531304985109,11353,1391,True,True
+2009-2012 validation,age_sex,0.8363021130913063,11353,1391,True,True
+2009-2012 validation,tes11,0.8614883838551466,11353,1391,False,False
+2013-2014 audit,age_only,0.8206495847956218,5578,444,True,True
+2013-2014 audit,age_sex,0.8230637679358295,5578,444,True,True
+2013-2014 audit,tes11,0.8582890481683908,5578,444,False,False
+2015-2016 frozen confirmation,age_only,0.8368315981628588,5459,250,True,True
+2015-2016 frozen confirmation,age_sex,0.8418012153139561,5459,250,True,True
+2015-2016 frozen confirmation,tes11,0.8767164850919821,5459,250,False,False
+2017-2018 short-follow-up stress,age_only,0.8041591985883595,5231,129,True,True
+2017-2018 short-follow-up stress,age_sex,0.8129741361343837,5231,129,True,True
+2017-2018 short-follow-up stress,tes11,0.8630858099565115,5231,129,False,False
+NHANES III external,age_only,0.8333916796400028,16519,7081,True,True
+NHANES III external,age_sex,0.8363612769835397,16519,7081,True,True
+NHANES III external,tes11,0.8493867110451929,16519,7081,False,False

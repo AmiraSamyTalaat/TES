@@ -1,0 +1,151 @@
+cohort,predictor,n,n_missing,percent_missing
+1999-2008 development,albumin_g_l,24666,1638,6.641
+1999-2008 development,alp_u_l,24666,1640,6.649
+1999-2008 development,alt_u_l,24666,1720,6.973
+1999-2008 development,ast_u_l,24666,1721,6.977
+1999-2008 development,bun_mmol_l,24666,1640,6.649
+1999-2008 development,bicarbonate_mmol_l,24666,1715,6.953
+1999-2008 development,calcium_mmol_l,24666,1640,6.649
+1999-2008 development,cholesterol_mmol_l,24666,1639,6.645
+1999-2008 development,chloride_mmol_l,24666,1643,6.661
+1999-2008 development,creatinine_umol_l,24666,1639,6.645
+1999-2008 development,ggt_u_l,24666,1640,6.649
+1999-2008 development,globulin_g_l,24666,1662,6.738
+1999-2008 development,glucose_mmol_l,24666,1638,6.641
+1999-2008 development,iron_umol_l,24666,1649,6.685
+1999-2008 development,ldh_u_l,24666,1723,6.985
+1999-2008 development,osmolality_mmol_kg,24666,1641,6.653
+1999-2008 development,phosphorus_mmol_l,24666,1640,6.649
+1999-2008 development,potassium_mmol_l,24666,1642,6.657
+1999-2008 development,sodium_mmol_l,24666,1641,6.653
+1999-2008 development,bilirubin_umol_l,24666,1648,6.681
+1999-2008 development,protein_g_l,24666,1662,6.738
+1999-2008 development,triglycerides_mmol_l,24666,1645,6.669
+1999-2008 development,uric_acid_umol_l,24666,1642,6.657
+1999-2008 development,age_years,24666,0,0.0
+1999-2008 development,sex_code,24666,0,0.0
+2009-2012 validation,albumin_g_l,11353,799,7.038
+2009-2012 validation,alp_u_l,11353,801,7.055
+2009-2012 validation,alt_u_l,11353,804,7.082
+2009-2012 validation,ast_u_l,11353,808,7.117
+2009-2012 validation,bun_mmol_l,11353,800,7.047
+2009-2012 validation,bicarbonate_mmol_l,11353,801,7.055
+2009-2012 validation,calcium_mmol_l,11353,801,7.055
+2009-2012 validation,cholesterol_mmol_l,11353,801,7.055
+2009-2012 validation,chloride_mmol_l,11353,801,7.055
+2009-2012 validation,creatinine_umol_l,11353,799,7.038
+2009-2012 validation,ggt_u_l,11353,802,7.064
+2009-2012 validation,globulin_g_l,11353,820,7.223
+2009-2012 validation,glucose_mmol_l,11353,799,7.038
+2009-2012 validation,iron_umol_l,11353,810,7.135
+2009-2012 validation,ldh_u_l,11353,808,7.117
+2009-2012 validation,osmolality_mmol_kg,11353,801,7.055
+2009-2012 validation,phosphorus_mmol_l,11353,803,7.073
+2009-2012 validation,potassium_mmol_l,11353,802,7.064
+2009-2012 validation,sodium_mmol_l,11353,801,7.055
+2009-2012 validation,bilirubin_umol_l,11353,811,7.143
+2009-2012 validation,protein_g_l,11353,820,7.223
+2009-2012 validation,triglycerides_mmol_l,11353,809,7.126
+2009-2012 validation,uric_acid_umol_l,11353,802,7.064
+2009-2012 validation,age_years,11353,0,0.0
+2009-2012 validation,sex_code,11353,0,0.0
+2013-2014 audit,albumin_g_l,5578,256,4.589
+2013-2014 audit,alp_u_l,5578,257,4.607
+2013-2014 audit,alt_u_l,5578,258,4.625
+2013-2014 audit,ast_u_l,5578,258,4.625
+2013-2014 audit,bun_mmol_l,5578,256,4.589
+2013-2014 audit,bicarbonate_mmol_l,5578,256,4.589
+2013-2014 audit,calcium_mmol_l,5578,285,5.109
+2013-2014 audit,cholesterol_mmol_l,5578,258,4.625
+2013-2014 audit,chloride_mmol_l,5578,256,4.589
+2013-2014 audit,creatinine_umol_l,5578,256,4.589
+2013-2014 audit,ggt_u_l,5578,257,4.607
+2013-2014 audit,globulin_g_l,5578,265,4.751
+2013-2014 audit,glucose_mmol_l,5578,256,4.589
+2013-2014 audit,iron_umol_l,5578,275,4.93
+2013-2014 audit,ldh_u_l,5578,258,4.625
+2013-2014 audit,osmolality_mmol_kg,5578,256,4.589
+2013-2014 audit,phosphorus_mmol_l,5578,257,4.607
+2013-2014 audit,potassium_mmol_l,5578,257,4.607
+2013-2014 audit,sodium_mmol_l,5578,256,4.589
+2013-2014 audit,bilirubin_umol_l,5578,260,4.661
+2013-2014 audit,protein_g_l,5578,265,4.751
+2013-2014 audit,triglycerides_mmol_l,5578,260,4.661
+2013-2014 audit,uric_acid_umol_l,5578,258,4.625
+2013-2014 audit,age_years,5578,0,0.0
+2013-2014 audit,sex_code,5578,0,0.0
+2015-2016 frozen confirmation,albumin_g_l,5459,322,5.899
+2015-2016 frozen confirmation,alp_u_l,5459,323,5.917
+2015-2016 frozen confirmation,alt_u_l,5459,322,5.899
+2015-2016 frozen confirmation,ast_u_l,5459,322,5.899
+2015-2016 frozen confirmation,bun_mmol_l,5459,323,5.917
+2015-2016 frozen confirmation,bicarbonate_mmol_l,5459,321,5.88
+2015-2016 frozen confirmation,calcium_mmol_l,5459,321,5.88
+2015-2016 frozen confirmation,cholesterol_mmol_l,5459,324,5.935
+2015-2016 frozen confirmation,chloride_mmol_l,5459,321,5.88
+2015-2016 frozen confirmation,creatinine_umol_l,5459,323,5.917
+2015-2016 frozen confirmation,ggt_u_l,5459,322,5.899
+2015-2016 frozen confirmation,globulin_g_l,5459,326,5.972
+2015-2016 frozen confirmation,glucose_mmol_l,5459,321,5.88
+2015-2016 frozen confirmation,iron_umol_l,5459,325,5.953
+2015-2016 frozen confirmation,ldh_u_l,5459,322,5.899
+2015-2016 frozen confirmation,osmolality_mmol_kg,5459,324,5.935
+2015-2016 frozen confirmation,phosphorus_mmol_l,5459,322,5.899
+2015-2016 frozen confirmation,potassium_mmol_l,5459,321,5.88
+2015-2016 frozen confirmation,sodium_mmol_l,5459,321,5.88
+2015-2016 frozen confirmation,bilirubin_umol_l,5459,324,5.935
+2015-2016 frozen confirmation,protein_g_l,5459,325,5.953
+2015-2016 frozen confirmation,triglycerides_mmol_l,5459,324,5.935
+2015-2016 frozen confirmation,uric_acid_umol_l,5459,324,5.935
+2015-2016 frozen confirmation,age_years,5459,0,0.0
+2015-2016 frozen confirmation,sex_code,5459,0,0.0
+2017-2018 short-follow-up stress,albumin_g_l,5231,343,6.557
+2017-2018 short-follow-up stress,alp_u_l,5231,345,6.595
+2017-2018 short-follow-up stress,alt_u_l,5231,345,6.595
+2017-2018 short-follow-up stress,ast_u_l,5231,358,6.844
+2017-2018 short-follow-up stress,bun_mmol_l,5231,346,6.614
+2017-2018 short-follow-up stress,bicarbonate_mmol_l,5231,346,6.614
+2017-2018 short-follow-up stress,calcium_mmol_l,5231,346,6.614
+2017-2018 short-follow-up stress,cholesterol_mmol_l,5231,344,6.576
+2017-2018 short-follow-up stress,chloride_mmol_l,5231,343,6.557
+2017-2018 short-follow-up stress,creatinine_umol_l,5231,344,6.576
+2017-2018 short-follow-up stress,ggt_u_l,5231,345,6.595
+2017-2018 short-follow-up stress,globulin_g_l,5231,346,6.614
+2017-2018 short-follow-up stress,glucose_mmol_l,5231,346,6.614
+2017-2018 short-follow-up stress,iron_umol_l,5231,345,6.595
+2017-2018 short-follow-up stress,ldh_u_l,5231,453,8.66
+2017-2018 short-follow-up stress,osmolality_mmol_kg,5231,346,6.614
+2017-2018 short-follow-up stress,phosphorus_mmol_l,5231,346,6.614
+2017-2018 short-follow-up stress,potassium_mmol_l,5231,346,6.614
+2017-2018 short-follow-up stress,sodium_mmol_l,5231,343,6.557
+2017-2018 short-follow-up stress,bilirubin_umol_l,5231,345,6.595
+2017-2018 short-follow-up stress,protein_g_l,5231,346,6.614
+2017-2018 short-follow-up stress,triglycerides_mmol_l,5231,346,6.614
+2017-2018 short-follow-up stress,uric_acid_umol_l,5231,346,6.614
+2017-2018 short-follow-up stress,age_years,5231,0,0.0
+2017-2018 short-follow-up stress,sex_code,5231,0,0.0
+NHANES III external,albumin_g_l,16519,1055,6.387
+NHANES III external,alp_u_l,16519,1057,6.399
+NHANES III external,alt_u_l,16519,1055,6.387
+NHANES III external,ast_u_l,16519,1055,6.387
+NHANES III external,bun_mmol_l,16519,1055,6.387
+NHANES III external,bicarbonate_mmol_l,16519,1057,6.399
+NHANES III external,calcium_mmol_l,16519,1056,6.393
+NHANES III external,cholesterol_mmol_l,16519,1057,6.399
+NHANES III external,chloride_mmol_l,16519,1055,6.387
+NHANES III external,creatinine_umol_l,16519,1056,6.393
+NHANES III external,ggt_u_l,16519,4506,27.278
+NHANES III external,globulin_g_l,16519,4928,29.832
+NHANES III external,glucose_mmol_l,16519,1059,6.411
+NHANES III external,iron_umol_l,16519,4928,29.832
+NHANES III external,ldh_u_l,16519,1056,6.393
+NHANES III external,osmolality_mmol_kg,16519,4928,29.832
+NHANES III external,phosphorus_mmol_l,16519,1055,6.387
+NHANES III external,potassium_mmol_l,16519,1055,6.387
+NHANES III external,sodium_mmol_l,16519,1055,6.387
+NHANES III external,bilirubin_umol_l,16519,1055,6.387
+NHANES III external,protein_g_l,16519,1055,6.387
+NHANES III external,triglycerides_mmol_l,16519,4928,29.832
+NHANES III external,uric_acid_umol_l,16519,1055,6.387
+NHANES III external,age_years,16519,0,0.0
+NHANES III external,sex_code,16519,0,0.0

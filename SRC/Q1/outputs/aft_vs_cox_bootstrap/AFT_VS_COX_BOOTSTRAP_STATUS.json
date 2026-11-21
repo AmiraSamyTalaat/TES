@@ -1,0 +1,15 @@
+{
+  "status": "SUPERIOR",
+  "replicates": 1000,
+  "mean_aft_c": 0.8621778228528995,
+  "mean_xgboost_cox_c": 0.8608257418643452,
+  "mean_paired_gain": 0.0013520809885543047,
+  "paired_gain_ci95": [
+    0.00020440939721455277,
+    0.0025011533718714172
+  ],
+  "probability_gain_positive": 0.99,
+  "superiority_gate_pass": true,
+  "confirmatory_2015_2018_used": false,
+  "nhanes_iii_read": false
+}
